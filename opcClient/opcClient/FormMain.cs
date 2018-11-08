@@ -38,8 +38,8 @@ namespace opcClient
         typeItem[] myItemArray=new typeItem[500];//max item number
 
         /*重要參數設置 *************************************/
-        string SoftVersion = "v18.1030";//軟件版本, 防止亂套設定檔(tmp.tmp)
-        int ItemsPerRow = 1;//Grid中, 每行要新增(選取)的item數量(不含"機台ID"及"OPC連線狀態"兩個欄位), 用來自動計算 換行&各item在grid中位置
+        string SoftVersion = "v18.1108";//軟件版本, 防止亂套設定檔(tmp.tmp)
+        int ItemsPerRow = 6;//Grid中, 每行要新增(選取)的item數量(不含"機台ID"及"OPC連線狀態"兩個欄位), 用來自動計算 換行&各item在grid中位置
         /***************************************************/
         
         int UploadTimerCount = 0;//Timer每次加1, Clock時鐘功能
@@ -182,7 +182,8 @@ namespace opcClient
                     if (DGrid.Columns[ItemsPerRow + 1].HeaderText == "<OPC連線狀態>")
                     {
                         //DGrid.Rows[gridRow(ClientHDL)].Cells[ItemsPerRow + 1].Value = OPCquality(Qualities.GetValue(i));
-                        DGrid.Rows[gridRow(ClientHDL)].Cells[ItemsPerRow + 1].Value = OPCquality(Convert.ToInt16(Qualities.GetValue(i)));
+                        //DGrid.Rows[gridRow(ClientHDL)].Cells[ItemsPerRow + 1].Value = OPCquality(Convert.ToInt16(Qualities.GetValue(i)));
+                        DGrid.Rows[gridRow(ClientHDL)].Cells[ItemsPerRow + 1].Value = Qualities.GetValue(i);
                     }
 
                 }
@@ -265,6 +266,17 @@ namespace opcClient
             //Data_Array = new aItem[MaxOpcItem];
             //DGrid.Rows[0].Cells[1].Selected = true;//初始儲存格的選取(反白).
             Outlook_setting();
+
+
+            /*OPC連線狀態, 初始值0*/
+            if (DGrid.Columns[ItemsPerRow + 1].HeaderText == "<OPC連線狀態>")
+            {
+                for (int i = 0; i < listBox_SelItem.Items.Count / ItemsPerRow; i++)//應有資料的列
+                {
+                        DGrid.Rows[i].Cells[ItemsPerRow + 1].Value =(int) 0;
+                }
+            }
+
         }
 
         private void Outlook_setting()
@@ -551,22 +563,32 @@ namespace opcClient
 
             //上傳grid to SQL server 
             //改為update方式, 不刪除/新增動作, Kenny, 2018-7-31
-            for (int i = 0; i < DGrid.RowCount - 1; i++)
+            //機台離線時,只更新連線狀態及時間欄位, 2018-11-08
+
+            //for (int i = 0; i < DGrid.RowCount - 1; i++)
+            for (int i = 0; i < listBox_SelItem.Items.Count / ItemsPerRow; i++)//應有資料的列
             {
-                if (string.Concat(DGrid.Rows[i].Cells[0].Value)!=null) //確認第一欄(ID)不為空
+                string ID = string.Concat(DGrid.Rows[i].Cells[0].Value);//機台ID
+                //string ID = "1101";/*Debug測試用*/
+                int ConnState = OPCquality((int)DGrid.Rows[i].Cells[7].Value);//opc連線狀態 0:NG  1:OK
+                string myTime = DateTime.Now.ToString("yyyy-MM-dd,HH:mm:ss");//系統時間
+
+                if (ConnState!=0) //OPC正常連線狀態
                 {
-                    string ID = string.Concat(DGrid.Rows[i].Cells[0].Value);
                     string DMIP = string.Concat(DGrid.Rows[i].Cells[1].Value, ".", DGrid.Rows[i].Cells[2].Value, ".", DGrid.Rows[i].Cells[3].Value, ".", DGrid.Rows[i].Cells[4].Value);
                     int STATE = (int)DGrid.Rows[i].Cells[5].Value;
                     int ERR = (int)DGrid.Rows[i].Cells[6].Value;
-                    string myTime = DateTime.Now.ToString("yyyy-MM-dd,HH:mm:ss");//系統時間
-                    int ConnState = (int)DGrid.Rows[i].Cells[7].Value;//opc連線狀態 0:NG  1:OK
 
-                    //cmd.CommandText = MakeInsertString(IP, STATE, ERR);//
                     cmd.CommandText = MakeUpdateString(ID, DMIP, STATE, ERR, ConnState, myTime);
-                    cmd.Connection = sqlConnection1;
-                    cmd.ExecuteNonQuery();
                 }
+                else//OPC離線狀態(item欄位可能為空)
+                {
+                    cmd.CommandText = MakeUpdateStringOFFLine(ID, ConnState, myTime); //只更新狀態、時間
+                }
+
+                cmd.Connection = sqlConnection1;
+                cmd.ExecuteNonQuery();
+
             }
 
             sqlConnection1.Close();
@@ -654,6 +676,14 @@ namespace opcClient
                 "',ErrCode='" + _err + "',connectFlag='" + _connState + "',Timestamp='" + _time + "' WHERE MachineID='" + _id + "'");
         }
 
+        public string MakeUpdateStringOFFLine(string _id, int _connState, string _time)
+        {
+            //string strSQL = "UPDATE MonitorMachineTabel SET DMIP='111111',State='3',ErrCode='122' WHERE MachineID='1901'";
+            //string strSQL = "UPDATE MonitorMachineTabel SET DMIP='" + _dmip + "',State='" + _state + "',ErrCode='" + _err + "' WHERE MachineID='" + _id + "'";
+            //return strSQL;
+
+            return string.Concat("UPDATE MonitorMachineTabel SET connectFlag='" + _connState + "',Timestamp='" + _time + "' WHERE MachineID='" + _id + "'");
+        }
 
         private void timerUpload_Tick(object sender, EventArgs e)
         {
@@ -698,10 +728,10 @@ namespace opcClient
         {
 
             /*數據上傳SQL server*/
-            //UploadToSQL();//DataGrid數據上傳SQL server
+            UploadToSQL();//DataGrid數據上傳SQL server
 
             /*數據上傳Oracle server*/
-            UploadToOracle();//DataGrid數據上傳Oracle server
+            //UploadToOracle();//DataGrid數據上傳Oracle server
 
             /*閃爍動畫效果*/
             if (DGrid.BackgroundColor == SystemColors.AppWorkspace)
@@ -790,9 +820,11 @@ namespace opcClient
             }
 
             /*儲存Machine ID*/
-            for (int i = 0; i < DGrid.RowCount; i++)
+            //for (int i = 0; i < DGrid.RowCount; i++)
+            for (int i = 0; i < listBox_SelItem.Items.Count / ItemsPerRow; i++) // (listBox_SelItem.Items.Count/ItemsPerRow): Grid應有的行數
             {
-                if (DGrid.Rows[i].Cells[0].Value!=null)
+                if (DGrid.Rows[i].Cells[0].Value != null || string.Concat(DGrid.Rows[i].Cells[0].Value) != "")
+                //if (DGrid.Rows[i].Cells[0].Value!=null)
                     sw.Write(string.Concat("M_ID:" + DGrid.Rows[i].Cells[0].Value + "\n"));
             }
 
@@ -1176,6 +1208,9 @@ namespace opcClient
 
         private void buttonCancelSetting_Click(object sender, EventArgs e)
         {
+            if (!CheckGridData()) //*檢查grid內容是否正確*/
+                return;
+
             EnableSetting(false);
         }
 
@@ -1280,6 +1315,7 @@ namespace opcClient
 
         public bool CheckGridData()
         {
+
             ///*確認grid內容是否正確*/
 
             if (listBox_SelItem .Items.Count==0)
@@ -1287,18 +1323,52 @@ namespace opcClient
                 MessageBox.Show("無資料");
                 return false;
             }
-            if (listBox_SelItem.Items.Count % ItemsPerRow != 0)
+
+            if (listBox_SelItem.Items.Count % ItemsPerRow != 0) //需為倍數
             {
                 MessageBox.Show("Grid資料不完整");
                 return false;
             }
 
-            //每一列的欄位不可為空.
-            for (int i = 0; i < listBox_SelItem.Items.Count / ItemsPerRow; i++) // (listBox_SelItem.Items.Count/ItemsPerRow)=Grid應有的行數,應整除.
+            ////每一列的欄位不可為空.
+            //for (int i = 0; i < listBox_SelItem.Items.Count / ItemsPerRow; i++) // (listBox_SelItem.Items.Count/ItemsPerRow)=Grid應有的行數,應整除.
+            //{
+            //    for (int j = 0; j < ItemsPerRow + 1; j++) //後面的欄位不可為空
+            //    {
+            //        if (DGrid.Rows[i].Cells[j].Value == null || string.Concat(DGrid.Rows[i].Cells[j].Value) == "")
+            //        {
+            //            MessageBox.Show("Grid資料不完整");
+            //            return false;
+            //        }
+            //    }
+            //}
+
+            //確認每一列的機台ID欄位不可為空
+            for (int i = 0; i < listBox_SelItem.Items.Count / ItemsPerRow; i++) // (listBox_SelItem.Items.Count/ItemsPerRow): Grid應有的行數
             {
-                for (int j = 0; j < ItemsPerRow + 1; j++) //後面的欄位不可為空
+                if (DGrid.Rows[i].Cells[0].Value == null || string.Concat(DGrid.Rows[i].Cells[0].Value) == "")
                 {
-                    if (DGrid.Rows[i].Cells[j].Value == null || string.Concat(DGrid.Rows[i].Cells[j].Value) == "")
+                    MessageBox.Show("Grid資料不完整");
+                    return false;
+                }
+                                
+            }
+
+
+            //確認每一列的機台ID欄位不可為空
+            for (int i = 0; i < DGrid.RowCount; i++)
+            {
+                if (i < listBox_SelItem.Items.Count / ItemsPerRow)//應有資料的列
+                {
+                    if (DGrid.Rows[i].Cells[0].Value == null || string.Concat(DGrid.Rows[i].Cells[0].Value) == "") //機台ID欄位有空
+                    {
+                        MessageBox.Show("Grid資料不完整");
+                        return false;
+                    }
+                }
+                else //應無資料的列
+                {
+                    if (DGrid.Rows[i].Cells[0].Value != null || string.Concat(DGrid.Rows[i].Cells[0].Value) != "")
                     {
                         MessageBox.Show("Grid資料不完整");
                         return false;
@@ -1307,8 +1377,8 @@ namespace opcClient
             }
 
             return true;
-
         }
+
 
         private void checkBoxEnableReset1_CheckedChanged(object sender, EventArgs e)
         {
@@ -1390,7 +1460,8 @@ namespace opcClient
             //    comboBoxResetMin1.Enabled = false;
             //}
         }
-  
+
+ 
 
 
     }

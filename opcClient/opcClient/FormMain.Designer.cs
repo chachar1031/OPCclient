@@ -77,7 +77,11 @@
             this.label11 = new System.Windows.Forms.Label();
             this.MachineID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ErrCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ConnQuality = new System.Windows.Forms.DataGridViewButtonColumn();
             this.groupBoxConnect.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DGrid)).BeginInit();
@@ -176,7 +180,11 @@
             this.DGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.MachineID,
             this.Column4,
+            this.Column1,
+            this.Column2,
+            this.Column3,
             this.ErrCode,
+            this.Column5,
             this.ConnQuality});
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
@@ -189,7 +197,7 @@
             this.DGrid.Location = new System.Drawing.Point(369, 100);
             this.DGrid.Name = "DGrid";
             this.DGrid.RowTemplate.Height = 24;
-            this.DGrid.Size = new System.Drawing.Size(513, 280);
+            this.DGrid.Size = new System.Drawing.Size(669, 280);
             this.DGrid.TabIndex = 19;
             this.DGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGrid_CellClick);
             // 
@@ -344,7 +352,7 @@
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(369, 18);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(513, 75);
+            this.pictureBox1.Size = new System.Drawing.Size(669, 75);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 62;
             this.pictureBox1.TabStop = false;
@@ -406,7 +414,7 @@
             // buttonChangeSetting
             // 
             this.buttonChangeSetting.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonChangeSetting.Location = new System.Drawing.Point(678, 508);
+            this.buttonChangeSetting.Location = new System.Drawing.Point(834, 508);
             this.buttonChangeSetting.Name = "buttonChangeSetting";
             this.buttonChangeSetting.Size = new System.Drawing.Size(94, 59);
             this.buttonChangeSetting.TabIndex = 65;
@@ -417,7 +425,7 @@
             // buttonStartUpload
             // 
             this.buttonStartUpload.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonStartUpload.Location = new System.Drawing.Point(788, 509);
+            this.buttonStartUpload.Location = new System.Drawing.Point(944, 509);
             this.buttonStartUpload.Name = "buttonStartUpload";
             this.buttonStartUpload.Size = new System.Drawing.Size(94, 59);
             this.buttonStartUpload.TabIndex = 64;
@@ -429,11 +437,12 @@
             // 
             this.labelItemCount.Anchor = System.Windows.Forms.AnchorStyles.Right;
             this.labelItemCount.AutoSize = true;
-            this.labelItemCount.Location = new System.Drawing.Point(844, 395);
+            this.labelItemCount.Location = new System.Drawing.Point(963, 395);
             this.labelItemCount.Name = "labelItemCount";
             this.labelItemCount.Size = new System.Drawing.Size(38, 12);
             this.labelItemCount.TabIndex = 67;
             this.labelItemCount.Text = "Item：";
+            this.labelItemCount.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // groupBoxReset
             // 
@@ -556,17 +565,45 @@
             // Column4
             // 
             this.Column4.Frozen = true;
-            this.Column4.HeaderText = "1.產量";
+            this.Column4.HeaderText = "1.(DMIP_1";
             this.Column4.Name = "Column4";
             this.Column4.Width = 65;
+            // 
+            // Column1
+            // 
+            this.Column1.Frozen = true;
+            this.Column1.HeaderText = "2.DMIP_2";
+            this.Column1.Name = "Column1";
+            this.Column1.Width = 65;
+            // 
+            // Column2
+            // 
+            this.Column2.Frozen = true;
+            this.Column2.HeaderText = "3.DMIP_3";
+            this.Column2.Name = "Column2";
+            this.Column2.Width = 65;
+            // 
+            // Column3
+            // 
+            this.Column3.Frozen = true;
+            this.Column3.HeaderText = "4.DMIP_4 )";
+            this.Column3.Name = "Column3";
+            this.Column3.Width = 70;
             // 
             // ErrCode
             // 
             this.ErrCode.Frozen = true;
-            this.ErrCode.HeaderText = "2.狀態";
+            this.ErrCode.HeaderText = "5.狀態";
             this.ErrCode.Name = "ErrCode";
             this.ErrCode.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.ErrCode.Width = 65;
+            // 
+            // Column5
+            // 
+            this.Column5.Frozen = true;
+            this.Column5.HeaderText = "6.報警";
+            this.Column5.Name = "Column5";
+            this.Column5.Width = 65;
             // 
             // ConnQuality
             // 
@@ -582,7 +619,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(887, 578);
+            this.ClientSize = new System.Drawing.Size(1043, 578);
             this.Controls.Add(this.groupBoxReset);
             this.Controls.Add(this.labelItemCount);
             this.Controls.Add(this.buttonChangeSetting);
@@ -597,7 +634,7 @@
             this.Controls.Add(this.groupBoxConnect);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "E03 INJ OPC Client";
+            this.Text = "A16 OPC Client";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBoxConnect.ResumeLayout(false);
@@ -663,7 +700,11 @@
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.DataGridViewTextBoxColumn MachineID;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn ErrCode;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewButtonColumn ConnQuality;
     }
 }
