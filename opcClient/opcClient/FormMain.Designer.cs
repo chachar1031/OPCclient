@@ -29,17 +29,18 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBoxConnect = new System.Windows.Forms.GroupBox();
-            this.label12 = new System.Windows.Forms.Label();
+            this.label_ServerIP = new System.Windows.Forms.Label();
+            this.label_localIP = new System.Windows.Forms.Label();
             this.btnConnLocalServer = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbServerName = new System.Windows.Forms.ComboBox();
             this.listBox_ShowItem = new System.Windows.Forms.ListBox();
             this.listBox_SelItem = new System.Windows.Forms.ListBox();
-            this.DGrid = new System.Windows.Forms.DataGridView();
             this.timerUpload = new System.Windows.Forms.Timer(this.components);
             this.groupBoxRate = new System.Windows.Forms.GroupBox();
             this.btnApplyRate = new System.Windows.Forms.Button();
@@ -49,14 +50,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtboxUpdateRate = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.groupBoxWriteValue = new System.Windows.Forms.GroupBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.comboWriteItem = new System.Windows.Forms.ComboBox();
-            this.btnWriteValue = new System.Windows.Forms.Button();
-            this.txtWriteValue = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBoxSetting = new System.Windows.Forms.GroupBox();
+            this.buttonChangeOrder = new System.Windows.Forms.Button();
+            this.buttonDelRow = new System.Windows.Forms.Button();
             this.buttonBackSetting = new System.Windows.Forms.Button();
             this.buttonDoneSetting = new System.Windows.Forms.Button();
             this.buttonSaveSetting = new System.Windows.Forms.Button();
@@ -75,50 +72,64 @@
             this.comboBoxResetHour1 = new System.Windows.Forms.ComboBox();
             this.checkBoxEnableReset1 = new System.Windows.Forms.CheckBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.MachineID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ErrCode = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ConnQuality = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.DGrid = new System.Windows.Forms.DataGridView();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.toolStripStatusLabel1 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.groupBoxLog = new System.Windows.Forms.GroupBox();
+            this.listBox_log = new System.Windows.Forms.ListBox();
+            this.groupBoxFunction = new System.Windows.Forms.GroupBox();
+            this.buttonFunc4 = new System.Windows.Forms.Button();
+            this.buttonFunc3 = new System.Windows.Forms.Button();
+            this.buttonFunc2 = new System.Windows.Forms.Button();
+            this.buttonFunc1 = new System.Windows.Forms.Button();
             this.groupBoxConnect.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DGrid)).BeginInit();
             this.groupBoxRate.SuspendLayout();
-            this.groupBoxWriteValue.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBoxSetting.SuspendLayout();
             this.groupBoxReset.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DGrid)).BeginInit();
+            this.statusStrip1.SuspendLayout();
+            this.groupBoxLog.SuspendLayout();
+            this.groupBoxFunction.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBoxConnect
             // 
-            this.groupBoxConnect.Controls.Add(this.label12);
+            this.groupBoxConnect.Controls.Add(this.label_ServerIP);
+            this.groupBoxConnect.Controls.Add(this.label_localIP);
             this.groupBoxConnect.Controls.Add(this.btnConnLocalServer);
             this.groupBoxConnect.Controls.Add(this.label1);
             this.groupBoxConnect.Controls.Add(this.cmbServerName);
             this.groupBoxConnect.Location = new System.Drawing.Point(12, 12);
             this.groupBoxConnect.Name = "groupBoxConnect";
-            this.groupBoxConnect.Size = new System.Drawing.Size(345, 82);
+            this.groupBoxConnect.Size = new System.Drawing.Size(344, 94);
             this.groupBoxConnect.TabIndex = 7;
             this.groupBoxConnect.TabStop = false;
             this.groupBoxConnect.Text = "Connection";
             // 
-            // label12
+            // label_ServerIP
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(11, 55);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(129, 12);
-            this.label12.TabIndex = 8;
-            this.label12.Text = "OPC Items Filter : *B02*_";
+            this.label_ServerIP.AutoSize = true;
+            this.label_ServerIP.Location = new System.Drawing.Point(12, 71);
+            this.label_ServerIP.Name = "label_ServerIP";
+            this.label_ServerIP.Size = new System.Drawing.Size(54, 12);
+            this.label_ServerIP.TabIndex = 9;
+            this.label_ServerIP.Text = "Server IP :";
+            // 
+            // label_localIP
+            // 
+            this.label_localIP.AutoSize = true;
+            this.label_localIP.Location = new System.Drawing.Point(12, 49);
+            this.label_localIP.Name = "label_localIP";
+            this.label_localIP.Size = new System.Drawing.Size(50, 12);
+            this.label_localIP.TabIndex = 8;
+            this.label_localIP.Text = "Local IP :";
             // 
             // btnConnLocalServer
             // 
-            this.btnConnLocalServer.Location = new System.Drawing.Point(241, 47);
+            this.btnConnLocalServer.Location = new System.Drawing.Point(241, 49);
             this.btnConnLocalServer.Name = "btnConnLocalServer";
-            this.btnConnLocalServer.Size = new System.Drawing.Size(98, 29);
+            this.btnConnLocalServer.Size = new System.Drawing.Size(98, 37);
             this.btnConnLocalServer.TabIndex = 7;
             this.btnConnLocalServer.Text = "connect";
             this.btnConnLocalServer.UseVisualStyleBackColor = true;
@@ -147,9 +158,9 @@
                         | System.Windows.Forms.AnchorStyles.Left)));
             this.listBox_ShowItem.FormattingEnabled = true;
             this.listBox_ShowItem.ItemHeight = 12;
-            this.listBox_ShowItem.Location = new System.Drawing.Point(12, 100);
+            this.listBox_ShowItem.Location = new System.Drawing.Point(12, 112);
             this.listBox_ShowItem.Name = "listBox_ShowItem";
-            this.listBox_ShowItem.Size = new System.Drawing.Size(345, 280);
+            this.listBox_ShowItem.Size = new System.Drawing.Size(344, 268);
             this.listBox_ShowItem.TabIndex = 9;
             this.listBox_ShowItem.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.listBox_ShowItem_MouseDoubleClick);
             // 
@@ -158,48 +169,10 @@
             this.listBox_SelItem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.listBox_SelItem.FormattingEnabled = true;
             this.listBox_SelItem.ItemHeight = 12;
-            this.listBox_SelItem.Location = new System.Drawing.Point(12, 407);
+            this.listBox_SelItem.Location = new System.Drawing.Point(309, 401);
             this.listBox_SelItem.Name = "listBox_SelItem";
             this.listBox_SelItem.Size = new System.Drawing.Size(47, 160);
             this.listBox_SelItem.TabIndex = 18;
-            // 
-            // DGrid
-            // 
-            this.DGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
-                        | System.Windows.Forms.AnchorStyles.Left)
-                        | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.DGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DGrid.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.MachineID,
-            this.Column4,
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.ErrCode,
-            this.Column5,
-            this.ConnQuality});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DGrid.DefaultCellStyle = dataGridViewCellStyle2;
-            this.DGrid.Location = new System.Drawing.Point(369, 100);
-            this.DGrid.Name = "DGrid";
-            this.DGrid.RowTemplate.Height = 24;
-            this.DGrid.Size = new System.Drawing.Size(669, 280);
-            this.DGrid.TabIndex = 19;
-            this.DGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGrid_CellClick);
             // 
             // timerUpload
             // 
@@ -215,7 +188,7 @@
             this.groupBoxRate.Controls.Add(this.label2);
             this.groupBoxRate.Controls.Add(this.txtboxUpdateRate);
             this.groupBoxRate.Controls.Add(this.label7);
-            this.groupBoxRate.Location = new System.Drawing.Point(214, 395);
+            this.groupBoxRate.Location = new System.Drawing.Point(12, 395);
             this.groupBoxRate.Name = "groupBoxRate";
             this.groupBoxRate.Size = new System.Drawing.Size(143, 172);
             this.groupBoxRate.TabIndex = 33;
@@ -264,9 +237,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(11, 80);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(75, 12);
+            this.label2.Size = new System.Drawing.Size(104, 12);
             this.label2.TabIndex = 17;
-            this.label2.Text = "Upload Rate：";
+            this.label2.Text = "Upload (to Server)：";
             // 
             // txtboxUpdateRate
             // 
@@ -282,77 +255,21 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(10, 24);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(74, 12);
+            this.label7.Size = new System.Drawing.Size(108, 12);
             this.label7.TabIndex = 14;
-            this.label7.Text = "Update Rate：";
-            // 
-            // groupBoxWriteValue
-            // 
-            this.groupBoxWriteValue.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBoxWriteValue.Controls.Add(this.label6);
-            this.groupBoxWriteValue.Controls.Add(this.label5);
-            this.groupBoxWriteValue.Controls.Add(this.comboWriteItem);
-            this.groupBoxWriteValue.Controls.Add(this.btnWriteValue);
-            this.groupBoxWriteValue.Controls.Add(this.txtWriteValue);
-            this.groupBoxWriteValue.Location = new System.Drawing.Point(65, 395);
-            this.groupBoxWriteValue.Name = "groupBoxWriteValue";
-            this.groupBoxWriteValue.Size = new System.Drawing.Size(143, 172);
-            this.groupBoxWriteValue.TabIndex = 34;
-            this.groupBoxWriteValue.TabStop = false;
-            this.groupBoxWriteValue.Text = "Write ONE PLC Value";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(12, 79);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(44, 12);
-            this.label6.TabIndex = 22;
-            this.label6.Text = "Value：";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 25);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(38, 12);
-            this.label5.TabIndex = 21;
-            this.label5.Text = "Item：";
-            // 
-            // comboWriteItem
-            // 
-            this.comboWriteItem.FormattingEnabled = true;
-            this.comboWriteItem.Location = new System.Drawing.Point(11, 39);
-            this.comboWriteItem.Name = "comboWriteItem";
-            this.comboWriteItem.Size = new System.Drawing.Size(121, 20);
-            this.comboWriteItem.TabIndex = 20;
-            // 
-            // btnWriteValue
-            // 
-            this.btnWriteValue.Location = new System.Drawing.Point(11, 136);
-            this.btnWriteValue.Name = "btnWriteValue";
-            this.btnWriteValue.Size = new System.Drawing.Size(121, 28);
-            this.btnWriteValue.TabIndex = 19;
-            this.btnWriteValue.Text = "WRITE";
-            this.btnWriteValue.UseVisualStyleBackColor = true;
-            this.btnWriteValue.Click += new System.EventHandler(this.btnWrite_Click);
-            // 
-            // txtWriteValue
-            // 
-            this.txtWriteValue.Location = new System.Drawing.Point(11, 94);
-            this.txtWriteValue.Name = "txtWriteValue";
-            this.txtWriteValue.Size = new System.Drawing.Size(119, 22);
-            this.txtWriteValue.TabIndex = 18;
+            this.label7.Text = "Update (from PLC)：";
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(369, 18);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(669, 75);
+            this.pictureBox1.Size = new System.Drawing.Size(539, 88);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 62;
             this.pictureBox1.TabStop = false;
@@ -360,20 +277,42 @@
             // groupBoxSetting
             // 
             this.groupBoxSetting.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBoxSetting.Controls.Add(this.buttonChangeOrder);
+            this.groupBoxSetting.Controls.Add(this.buttonDelRow);
             this.groupBoxSetting.Controls.Add(this.buttonBackSetting);
             this.groupBoxSetting.Controls.Add(this.buttonDoneSetting);
             this.groupBoxSetting.Controls.Add(this.buttonSaveSetting);
             this.groupBoxSetting.Controls.Add(this.buttonClearSetting);
-            this.groupBoxSetting.Location = new System.Drawing.Point(529, 395);
+            this.groupBoxSetting.Location = new System.Drawing.Point(369, 395);
             this.groupBoxSetting.Name = "groupBoxSetting";
-            this.groupBoxSetting.Size = new System.Drawing.Size(143, 172);
+            this.groupBoxSetting.Size = new System.Drawing.Size(269, 172);
             this.groupBoxSetting.TabIndex = 34;
             this.groupBoxSetting.TabStop = false;
             this.groupBoxSetting.Text = "Setting";
             // 
+            // buttonChangeOrder
+            // 
+            this.buttonChangeOrder.Location = new System.Drawing.Point(139, 56);
+            this.buttonChangeOrder.Name = "buttonChangeOrder";
+            this.buttonChangeOrder.Size = new System.Drawing.Size(120, 28);
+            this.buttonChangeOrder.TabIndex = 72;
+            this.buttonChangeOrder.Text = "CHANGE ORDER";
+            this.buttonChangeOrder.UseVisualStyleBackColor = true;
+            this.buttonChangeOrder.Click += new System.EventHandler(this.buttonChangeOrder_Click);
+            // 
+            // buttonDelRow
+            // 
+            this.buttonDelRow.Location = new System.Drawing.Point(139, 22);
+            this.buttonDelRow.Name = "buttonDelRow";
+            this.buttonDelRow.Size = new System.Drawing.Size(120, 28);
+            this.buttonDelRow.TabIndex = 71;
+            this.buttonDelRow.Text = "DELETE ROW";
+            this.buttonDelRow.UseVisualStyleBackColor = true;
+            this.buttonDelRow.Click += new System.EventHandler(this.buttonDelRow_Click);
+            // 
             // buttonBackSetting
             // 
-            this.buttonBackSetting.Location = new System.Drawing.Point(12, 29);
+            this.buttonBackSetting.Location = new System.Drawing.Point(12, 21);
             this.buttonBackSetting.Name = "buttonBackSetting";
             this.buttonBackSetting.Size = new System.Drawing.Size(121, 28);
             this.buttonBackSetting.TabIndex = 70;
@@ -383,7 +322,7 @@
             // 
             // buttonDoneSetting
             // 
-            this.buttonDoneSetting.Location = new System.Drawing.Point(11, 137);
+            this.buttonDoneSetting.Location = new System.Drawing.Point(12, 126);
             this.buttonDoneSetting.Name = "buttonDoneSetting";
             this.buttonDoneSetting.Size = new System.Drawing.Size(121, 29);
             this.buttonDoneSetting.TabIndex = 69;
@@ -393,7 +332,7 @@
             // 
             // buttonSaveSetting
             // 
-            this.buttonSaveSetting.Location = new System.Drawing.Point(11, 101);
+            this.buttonSaveSetting.Location = new System.Drawing.Point(12, 92);
             this.buttonSaveSetting.Name = "buttonSaveSetting";
             this.buttonSaveSetting.Size = new System.Drawing.Size(121, 28);
             this.buttonSaveSetting.TabIndex = 68;
@@ -403,7 +342,7 @@
             // 
             // buttonClearSetting
             // 
-            this.buttonClearSetting.Location = new System.Drawing.Point(12, 66);
+            this.buttonClearSetting.Location = new System.Drawing.Point(12, 56);
             this.buttonClearSetting.Name = "buttonClearSetting";
             this.buttonClearSetting.Size = new System.Drawing.Size(121, 28);
             this.buttonClearSetting.TabIndex = 66;
@@ -414,7 +353,7 @@
             // buttonChangeSetting
             // 
             this.buttonChangeSetting.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonChangeSetting.Location = new System.Drawing.Point(834, 508);
+            this.buttonChangeSetting.Location = new System.Drawing.Point(816, 444);
             this.buttonChangeSetting.Name = "buttonChangeSetting";
             this.buttonChangeSetting.Size = new System.Drawing.Size(94, 59);
             this.buttonChangeSetting.TabIndex = 65;
@@ -425,7 +364,7 @@
             // buttonStartUpload
             // 
             this.buttonStartUpload.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonStartUpload.Location = new System.Drawing.Point(944, 509);
+            this.buttonStartUpload.Location = new System.Drawing.Point(816, 509);
             this.buttonStartUpload.Name = "buttonStartUpload";
             this.buttonStartUpload.Size = new System.Drawing.Size(94, 59);
             this.buttonStartUpload.TabIndex = 64;
@@ -435,9 +374,9 @@
             // 
             // labelItemCount
             // 
-            this.labelItemCount.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.labelItemCount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.labelItemCount.AutoSize = true;
-            this.labelItemCount.Location = new System.Drawing.Point(963, 395);
+            this.labelItemCount.Location = new System.Drawing.Point(814, 403);
             this.labelItemCount.Name = "labelItemCount";
             this.labelItemCount.Size = new System.Drawing.Size(38, 12);
             this.labelItemCount.TabIndex = 67;
@@ -457,7 +396,7 @@
             this.groupBoxReset.Controls.Add(this.comboBoxResetHour1);
             this.groupBoxReset.Controls.Add(this.checkBoxEnableReset1);
             this.groupBoxReset.Controls.Add(this.label11);
-            this.groupBoxReset.Location = new System.Drawing.Point(369, 395);
+            this.groupBoxReset.Location = new System.Drawing.Point(161, 395);
             this.groupBoxReset.Name = "groupBoxReset";
             this.groupBoxReset.Size = new System.Drawing.Size(143, 172);
             this.groupBoxReset.TabIndex = 34;
@@ -554,100 +493,172 @@
             this.label11.TabIndex = 14;
             this.label11.Text = "Hour              Min";
             // 
-            // MachineID
+            // DGrid
             // 
-            this.MachineID.Frozen = true;
-            this.MachineID.HeaderText = "0.機台ID";
-            this.MachineID.Name = "MachineID";
-            this.MachineID.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.MachineID.Width = 75;
+            this.DGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
+                        | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.DGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DGrid.DefaultCellStyle = dataGridViewCellStyle2;
+            this.DGrid.Location = new System.Drawing.Point(369, 112);
+            this.DGrid.Name = "DGrid";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.DGrid.RowTemplate.Height = 24;
+            this.DGrid.Size = new System.Drawing.Size(539, 268);
+            this.DGrid.TabIndex = 68;
+            this.DGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGrid_CellClick);
             // 
-            // Column4
+            // statusStrip1
             // 
-            this.Column4.Frozen = true;
-            this.Column4.HeaderText = "1.(DMIP_1";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 65;
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripStatusLabel1});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 573);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(915, 22);
+            this.statusStrip1.TabIndex = 69;
+            this.statusStrip1.Text = "statusStrip1";
             // 
-            // Column1
+            // toolStripStatusLabel1
             // 
-            this.Column1.Frozen = true;
-            this.Column1.HeaderText = "2.DMIP_2";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 65;
+            this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(0, 17);
             // 
-            // Column2
+            // groupBoxLog
             // 
-            this.Column2.Frozen = true;
-            this.Column2.HeaderText = "3.DMIP_3";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 65;
+            this.groupBoxLog.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBoxLog.Controls.Add(this.listBox_log);
+            this.groupBoxLog.Location = new System.Drawing.Point(742, 395);
+            this.groupBoxLog.Name = "groupBoxLog";
+            this.groupBoxLog.Size = new System.Drawing.Size(68, 172);
+            this.groupBoxLog.TabIndex = 71;
+            this.groupBoxLog.TabStop = false;
+            this.groupBoxLog.Text = "Log";
             // 
-            // Column3
+            // listBox_log
             // 
-            this.Column3.Frozen = true;
-            this.Column3.HeaderText = "4.DMIP_4 )";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 70;
+            this.listBox_log.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
+                        | System.Windows.Forms.AnchorStyles.Right)));
+            this.listBox_log.FormattingEnabled = true;
+            this.listBox_log.HorizontalScrollbar = true;
+            this.listBox_log.ItemHeight = 12;
+            this.listBox_log.Location = new System.Drawing.Point(6, 18);
+            this.listBox_log.Name = "listBox_log";
+            this.listBox_log.Size = new System.Drawing.Size(56, 148);
+            this.listBox_log.TabIndex = 71;
             // 
-            // ErrCode
+            // groupBoxFunction
             // 
-            this.ErrCode.Frozen = true;
-            this.ErrCode.HeaderText = "5.狀態";
-            this.ErrCode.Name = "ErrCode";
-            this.ErrCode.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ErrCode.Width = 65;
+            this.groupBoxFunction.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBoxFunction.Controls.Add(this.buttonFunc4);
+            this.groupBoxFunction.Controls.Add(this.buttonFunc3);
+            this.groupBoxFunction.Controls.Add(this.buttonFunc2);
+            this.groupBoxFunction.Controls.Add(this.buttonFunc1);
+            this.groupBoxFunction.Location = new System.Drawing.Point(646, 395);
+            this.groupBoxFunction.Name = "groupBoxFunction";
+            this.groupBoxFunction.Size = new System.Drawing.Size(90, 171);
+            this.groupBoxFunction.TabIndex = 72;
+            this.groupBoxFunction.TabStop = false;
+            this.groupBoxFunction.Text = "Function";
             // 
-            // Column5
+            // buttonFunc4
             // 
-            this.Column5.Frozen = true;
-            this.Column5.HeaderText = "6.報警";
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 65;
+            this.buttonFunc4.Location = new System.Drawing.Point(6, 127);
+            this.buttonFunc4.Name = "buttonFunc4";
+            this.buttonFunc4.Size = new System.Drawing.Size(120, 28);
+            this.buttonFunc4.TabIndex = 3;
+            this.buttonFunc4.Text = "Function_4";
+            this.buttonFunc4.UseVisualStyleBackColor = true;
+            this.buttonFunc4.Click += new System.EventHandler(this.buttonFunc4_Click);
             // 
-            // ConnQuality
+            // buttonFunc3
             // 
-            this.ConnQuality.Frozen = true;
-            this.ConnQuality.HeaderText = "<OPC連線狀態>";
-            this.ConnQuality.Name = "ConnQuality";
-            this.ConnQuality.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.ConnQuality.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.ConnQuality.Width = 120;
+            this.buttonFunc3.Location = new System.Drawing.Point(6, 93);
+            this.buttonFunc3.Name = "buttonFunc3";
+            this.buttonFunc3.Size = new System.Drawing.Size(120, 28);
+            this.buttonFunc3.TabIndex = 2;
+            this.buttonFunc3.Text = "Function_3";
+            this.buttonFunc3.UseVisualStyleBackColor = true;
+            this.buttonFunc3.Click += new System.EventHandler(this.buttonFunc3_Click);
+            // 
+            // buttonFunc2
+            // 
+            this.buttonFunc2.Location = new System.Drawing.Point(6, 58);
+            this.buttonFunc2.Name = "buttonFunc2";
+            this.buttonFunc2.Size = new System.Drawing.Size(120, 28);
+            this.buttonFunc2.TabIndex = 1;
+            this.buttonFunc2.Text = "Function_2";
+            this.buttonFunc2.UseVisualStyleBackColor = true;
+            this.buttonFunc2.Click += new System.EventHandler(this.buttonFunc2_Click);
+            // 
+            // buttonFunc1
+            // 
+            this.buttonFunc1.Location = new System.Drawing.Point(6, 24);
+            this.buttonFunc1.Name = "buttonFunc1";
+            this.buttonFunc1.Size = new System.Drawing.Size(120, 28);
+            this.buttonFunc1.TabIndex = 0;
+            this.buttonFunc1.Text = "Function_1";
+            this.buttonFunc1.UseVisualStyleBackColor = true;
+            this.buttonFunc1.Click += new System.EventHandler(this.buttonFunc1_Click);
             // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1043, 578);
+            this.ClientSize = new System.Drawing.Size(915, 595);
+            this.Controls.Add(this.groupBoxFunction);
+            this.Controls.Add(this.groupBoxLog);
+            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.DGrid);
             this.Controls.Add(this.groupBoxReset);
             this.Controls.Add(this.labelItemCount);
             this.Controls.Add(this.buttonChangeSetting);
             this.Controls.Add(this.buttonStartUpload);
             this.Controls.Add(this.groupBoxSetting);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.groupBoxWriteValue);
             this.Controls.Add(this.groupBoxRate);
-            this.Controls.Add(this.DGrid);
             this.Controls.Add(this.listBox_SelItem);
             this.Controls.Add(this.listBox_ShowItem);
             this.Controls.Add(this.groupBoxConnect);
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "A16 OPC Client";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBoxConnect.ResumeLayout(false);
             this.groupBoxConnect.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DGrid)).EndInit();
             this.groupBoxRate.ResumeLayout(false);
             this.groupBoxRate.PerformLayout();
-            this.groupBoxWriteValue.ResumeLayout(false);
-            this.groupBoxWriteValue.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBoxSetting.ResumeLayout(false);
             this.groupBoxReset.ResumeLayout(false);
             this.groupBoxReset.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.DGrid)).EndInit();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
+            this.groupBoxLog.ResumeLayout(false);
+            this.groupBoxFunction.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -659,7 +670,6 @@
         private System.Windows.Forms.ComboBox cmbServerName;
         private System.Windows.Forms.ListBox listBox_ShowItem;
         private System.Windows.Forms.ListBox listBox_SelItem;
-        public System.Windows.Forms.DataGridView DGrid;
         private System.Windows.Forms.Timer timerUpload;
         private System.Windows.Forms.GroupBox groupBoxRate;
         private System.Windows.Forms.Label label4;
@@ -668,12 +678,6 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.TextBox txtboxUpdateRate;
-        private System.Windows.Forms.GroupBox groupBoxWriteValue;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.ComboBox comboWriteItem;
-        private System.Windows.Forms.Button btnWriteValue;
-        private System.Windows.Forms.TextBox txtWriteValue;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.GroupBox groupBoxSetting;
         private System.Windows.Forms.Button buttonDoneSetting;
@@ -697,15 +701,20 @@
         private System.Windows.Forms.CheckBox checkBoxEnableReset2;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.ComboBox comboBoxResetHour2;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.DataGridViewTextBoxColumn MachineID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ErrCode;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewButtonColumn ConnQuality;
+        private System.Windows.Forms.Label label_localIP;
+        private System.Windows.Forms.DataGridView DGrid;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
+        private System.Windows.Forms.GroupBox groupBoxLog;
+        private System.Windows.Forms.ListBox listBox_log;
+        private System.Windows.Forms.Button buttonDelRow;
+        private System.Windows.Forms.Button buttonChangeOrder;
+        private System.Windows.Forms.Label label_ServerIP;
+        private System.Windows.Forms.GroupBox groupBoxFunction;
+        private System.Windows.Forms.Button buttonFunc4;
+        private System.Windows.Forms.Button buttonFunc3;
+        private System.Windows.Forms.Button buttonFunc2;
+        private System.Windows.Forms.Button buttonFunc1;
     }
 }
 

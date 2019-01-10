@@ -1,482 +1,312 @@
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m\opcClient\opcClient\obj\x86\Debug\opcClient.Form1.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m2\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m2\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m2\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m2\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m2\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m2\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m2\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m2\opcClient\opcClient\obj\x86\Debug\opcClient.Form1.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m2\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m2\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m2\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m3\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m3\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m3\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m3\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m3\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m3\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m3\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m3\opcClient\opcClient\obj\x86\Debug\opcClient.Form1.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m3\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m3\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m3\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m4\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m4\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m4\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m4\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m5 add SQL write\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m5 add SQL write\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m5 add SQL write\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m5 add SQL write\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m5 add SQL write\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m5 add SQL write\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m5 add SQL write\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m5 add SQL write\opcClient\opcClient\obj\x86\Debug\opcClient.Form1.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m5 add SQL write\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m5 add SQL write\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0724 m5 add SQL write\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-D:\kenny\0724 m5 add SQL write OK\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-D:\kenny\0724 m5 add SQL write OK\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-D:\kenny\0724 m5 add SQL write OK\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-D:\kenny\0724 m5 add SQL write OK\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-D:\kenny\0724 m5 add SQL write OK\opcClient\opcClient\bin\Debug\opcClient.exe
-D:\kenny\0724 m5 add SQL write OK\opcClient\opcClient\bin\Debug\opcClient.pdb
-D:\kenny\0724 m5 add SQL write OK\opcClient\opcClient\obj\x86\Debug\opcClient.Form1.resources
-D:\kenny\0724 m5 add SQL write OK\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-D:\kenny\0724 m5 add SQL write OK\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache
-D:\kenny\0726\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-D:\kenny\0726\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-D:\kenny\0726\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-D:\kenny\0726\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-D:\kenny\0726\opcClient\opcClient\bin\Debug\opcClient.exe
-D:\kenny\0726\opcClient\opcClient\bin\Debug\opcClient.pdb
-D:\kenny\0726\opcClient\opcClient\obj\x86\Debug\opcClient.Form1.resources
-D:\kenny\0726\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-D:\kenny\0726\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0730\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0730\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0730\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0730\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0730\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0730\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0730\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0730\opcClient\opcClient\obj\x86\Debug\opcClient.Form1.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0730\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0730\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0730\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731\opcClient\opcClient\obj\x86\Debug\opcClient.Form1.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 save setting ok\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 save setting ok\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 save setting ok\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 save setting ok\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 save setting ok\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 save setting ok\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 save setting ok\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 save setting ok\opcClient\opcClient\obj\x86\Debug\opcClient.Form1.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 save setting ok\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 save setting ok\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 save setting ok\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 A16opc save setting ok\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 A16opc save setting ok\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 A16opc save setting ok\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0731 A16opc save setting ok\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 write test\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 write test\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 write test\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 write test\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 write test\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 write test\opcClient\opcClient\obj\x86\Debug\opcClient.Form1.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 write test\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 write test\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 write test\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 write test\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 write test\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 AsyncWrite test ok\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 AsyncWrite test ok\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 AsyncWrite test ok\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 AsyncWrite test ok\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 test 2\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 test 2\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 test 2\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 test 2\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 test 2\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 test 2\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 test 2\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 test 2\opcClient\opcClient\obj\x86\Debug\opcClient.Form1.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 test 2\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 test 2\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0801 test 2\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0802 A16\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0802 A16\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0802 A16\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0802 A16\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0802 A16\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0802 A16\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0802 A16\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0802 A16\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0802 A16\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0802 A16\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0802 A16\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0802 A16\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0803 A16opc\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0803 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0803 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0803 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0803 A16opc\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0803 A16opc\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0803 A16opc\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0803 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0803 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0803 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0803 A16opc\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0803 A16opc\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0804 A16opc\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0804 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0804 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0804 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0804 A16opc\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0804 A16opc\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0804 A16opc\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0804 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0804 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0804 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0804 A16opc\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0804 A16opc\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0806 A16opc\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0806 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0806 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0806 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0806 A16opc\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0806 A16opc\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0806 A16opc\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0806 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0806 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0806 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0806 A16opc\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0806 A16opc\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - m\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - m\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - m\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - m\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - m\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - m\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - m\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - m\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - m\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - m\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - m\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - m\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - update Timestamp\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - update Timestamp\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - update Timestamp\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0807 A16opc - update Timestamp\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0814 A16opc - update Timestamp+Oracle\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0814 A16opc - update Timestamp+Oracle\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0814 A16opc - update Timestamp+Oracle\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0814 A16opc - update Timestamp+Oracle\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0814 A16opc - update Timestamp+Oracle\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0814 A16opc - update Timestamp+Oracle\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0814 A16opc - update Timestamp+Oracle\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0814 A16opc - update Timestamp+Oracle\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0814 A16opc - update Timestamp+Oracle\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0814 A16opc - update Timestamp+Oracle\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0814 A16opc - update Timestamp+Oracle\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0814 A16opc - update Timestamp+Oracle\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0815 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0815 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0815 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0815 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0815 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0815 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0815 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0815 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0815 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0815 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0815 E03 INJ opc client\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0815 E03 INJ opc client\opcClient\opcClient\bin\Debug\opcClient.pdb
-E:\Kenny\code\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-E:\Kenny\code\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-E:\Kenny\code\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-E:\Kenny\code\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-E:\Kenny\code\0816 E03 INJ opc client\opcClient\opcClient\bin\Debug\opcClient.exe
-E:\Kenny\code\0816 E03 INJ opc client\opcClient\opcClient\bin\Debug\opcClient.pdb
-E:\Kenny\code\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-E:\Kenny\code\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-E:\Kenny\code\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-E:\Kenny\code\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-E:\Kenny\code\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-E:\Kenny\code\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816 E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816m E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816m E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816m E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816m E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816m E03 INJ opc client\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816m E03 INJ opc client\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816m E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816m E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816m E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816m E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816m E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180531T\Desktop\OPC code test\0816m E03 INJ opc client\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0817 E03 INJ opc client_LayoutTest\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator.WEPIT-20180827T\Desktop\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2 - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2 - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2 - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2 - 複製\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2 - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2 - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2 - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2 - 複製\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2 - 複製\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2 - 複製\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2 - 複製\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2 - 複製\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0828m2 E03 INJ opc client_LayoutTest & Add ResetTime2\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0925 E03 INJ opc client_test_Keyword Search & Connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1005 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1006 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1008 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1010 E03 INJ opc client_connection Quality\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1011 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1015 A16 opc client\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 E03 INJ opc client_connection Quality\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1024 test E03 INJ opc client_connection Quality - 複製\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1030 E03 INJ opc client_add row issue fixed OK\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1030 E03 INJ opc client_add row issue fixed OK\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1030 E03 INJ opc client_add row issue fixed OK\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1030 E03 INJ opc client_add row issue fixed OK\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1030 E03 INJ opc client_add row issue fixed OK\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1107 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\bin\Debug\opcClient.exe
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\bin\Debug\opcClient.pdb
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
-C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1108 A16 opc client_show conn quality and item amount check change\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1115 A16 opc client_DWORDtoUINT32_ReadIP&Amount\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116 A16 opc client_AddOKNGAmount\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1116m A16 opc client_Add define for different projects\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1120 opc client_Add define for different projects\1120 opc client_Add define for different projects\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1121 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1126 opc client_windows resize_NG\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1127 opc client_windows resize\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1212 opc client_add opc logo\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1225 opc client_check CLEAR Oracle bug\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1227m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229 opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m opc client_Add Delete and ChangeOrder function\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\1229m2 opc client_Add Delete and ChangeOrder function - 複製\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0103 opc client_check item list and add log function\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0105 opc client_add PING OK\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add processing flag\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\0108m2  OPC Client_add Switch button functions_OK\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m  OPC Client_A16 2F\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190106m2  OPC Client_Unicode test\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog

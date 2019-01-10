@@ -1,0 +1,14 @@
+2018/11/26
+1.Opc item support(uint) for Dword type
+2.Add opc items for input/OK/NG counts.
+3.#define for different project
+4.build grid  automatically
+6.Add dummy_upload define
+7.E03 INJ, clear table before insert records.
+
+2019/1/10
+1.Data structure changed for Delete/Moveup/Movedown function
+2.Add Log in form and file for issue trace.
+3.Show local and server IP.
+4.Check OPC item list while load_setting.
+5.Change New LOGO

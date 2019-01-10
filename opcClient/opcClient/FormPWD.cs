@@ -53,6 +53,7 @@ namespace opcClient
                 else
                 {
                     MessageBox.Show("Wrong Password!");
+                    textBoxPWD.Text = "";
                 }
 
             }
@@ -72,5 +73,6 @@ namespace opcClient
             textBoxPWD.Focus(); //FORM啟動完後成, 油標的初始位置
 
         }
+
     }
 }
