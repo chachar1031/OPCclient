@@ -12,3 +12,9 @@
 3.Show local and server IP.
 4.Check OPC item list while load_setting.
 5.Change New LOGO
+6.Add #define for different project maintein
+
+2019/1/14
+1.Solve bug which the OPC item array doesn't remove before move up/down function. 
+2.Solve bug which fails during uploading.
+3.Add alive message in LOG per minute.

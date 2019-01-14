@@ -147,9 +147,9 @@
             // cmbServerName
             // 
             this.cmbServerName.FormattingEnabled = true;
-            this.cmbServerName.Location = new System.Drawing.Point(84, 21);
+            this.cmbServerName.Location = new System.Drawing.Point(89, 21);
             this.cmbServerName.Name = "cmbServerName";
-            this.cmbServerName.Size = new System.Drawing.Size(254, 20);
+            this.cmbServerName.Size = new System.Drawing.Size(249, 20);
             this.cmbServerName.TabIndex = 5;
             // 
             // listBox_ShowItem

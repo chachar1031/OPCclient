@@ -310,3 +310,118 @@ C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client
 C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
 C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
 C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190110  OPC Client_Unicode bug fixed\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111  OPC Client_UPload count bug fixed\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\bin\Debug\opcClient.exe
+D:\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\bin\Debug\opcClient.pdb
+D:\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+D:\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+D:\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+D:\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\20190111m2  OPC Client_Remove ALL opc items before reload form listbox\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190112  OPC Client_bug fixed\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\20190114  OPC Client_\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\20190114  OPC Client_\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\20190114  OPC Client_\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\20190114  OPC Client_\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\20190114  OPC Client_\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\20190114  OPC Client_\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\20190114  OPC Client_\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\20190114  OPC Client_\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\20190114  OPC Client_\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\20190114  OPC Client_\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\20190114  OPC Client_\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\20190114  OPC Client_\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_upload big fixed\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\bin\Debug\opcClient.exe
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\bin\Debug\opcClient.pdb
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Administrator\Desktop\Desktop backup\OPC code test\20190114m  OPC Client_show alive msg per min\opcClient\opcClient\obj\x86\Debug\GenerateResource.write.1.tlog
