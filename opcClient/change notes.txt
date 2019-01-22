@@ -18,3 +18,7 @@
 1.Solve bug which the OPC item array doesn't remove before move up/down function. 
 2.Solve bug which fails during uploading.
 3.Add alive message in LOG per minute.
+
+2019/1/22
+1.Reset bug fixed
+2.Clear log listbox regularly

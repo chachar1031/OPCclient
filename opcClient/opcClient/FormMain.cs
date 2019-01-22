@@ -52,6 +52,7 @@ namespace opcClient
 #if (A16_2F_OPC_client)
         string FormTitle = "A16 2F OPC Client";//Form標題
         string SoftVersion = "v19.0114m";//軟件版本, 防止亂套設定檔(tmp.tmp)
+        string SoftVersion = "v19.0122";//軟件版本, 防止亂套設定檔(tmp.tmp)
         //int ItemsPerRow = 6;//Grid中, 每行要新增(選取)的item數量(不含"機台ID"及"OPC連線狀態"兩個欄位), 用來自動計算 換行&各item在grid中位置
         string[] strGridColumnHeaders = { "機台ID", "(DMIP_1", "DMIP_2", "DMIP_3", "DMIP_4)", "狀態", "報警代碼", "投入數", "OK數", "NG數" };//數量為ItemsPerRow + 1
         string strServerIP = "10.194.168.179"; //上傳server IP
@@ -872,6 +873,7 @@ namespace opcClient
 
         private void timerUpload_Tick(object sender, EventArgs e)
         {
+            UploadTimerCount = UploadTimerCount + 1;//每秒累加1.
 
             if (DateTime.Now.ToString("ss") == "00")//每整分報時,確認程式還活著
             { LOG("OPC client alive."); }
@@ -1789,6 +1791,14 @@ namespace opcClient
             string LogMSG = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss") + " ==> " + _msg ;
             
             listBox_log.Items.Add(LogMSG);
+
+            /*保時LOG listbox 容量*/
+            if (listBox_log.Items.Count > 4000)
+            {
+                for (int j = 0; j < 2000; j++)
+                { listBox_log.Items.RemoveAt(0); } //移除指定列資料.
+            }
+
             listBox_log.SelectedIndex = listBox_log.Items.Count - 1;//保持listbox滾動到底部
             
             Write2LogFile(LogMSG);//寫入file
