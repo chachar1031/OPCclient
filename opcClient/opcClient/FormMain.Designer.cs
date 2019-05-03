@@ -30,18 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMain));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.groupBoxConnect = new System.Windows.Forms.GroupBox();
             this.label_ServerIP = new System.Windows.Forms.Label();
             this.label_localIP = new System.Windows.Forms.Label();
-            this.btnConnLocalServer = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbServerName = new System.Windows.Forms.ComboBox();
             this.listBox_ShowItem = new System.Windows.Forms.ListBox();
             this.listBox_SelItem = new System.Windows.Forms.ListBox();
-            this.timerUpload = new System.Windows.Forms.Timer(this.components);
+            this.Clock_Timer = new System.Windows.Forms.Timer(this.components);
             this.groupBoxRate = new System.Windows.Forms.GroupBox();
             this.btnApplyRate = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
@@ -97,7 +96,6 @@
             // 
             this.groupBoxConnect.Controls.Add(this.label_ServerIP);
             this.groupBoxConnect.Controls.Add(this.label_localIP);
-            this.groupBoxConnect.Controls.Add(this.btnConnLocalServer);
             this.groupBoxConnect.Controls.Add(this.label1);
             this.groupBoxConnect.Controls.Add(this.cmbServerName);
             this.groupBoxConnect.Location = new System.Drawing.Point(12, 12);
@@ -125,16 +123,6 @@
             this.label_localIP.TabIndex = 8;
             this.label_localIP.Text = "Local IP :";
             // 
-            // btnConnLocalServer
-            // 
-            this.btnConnLocalServer.Location = new System.Drawing.Point(241, 49);
-            this.btnConnLocalServer.Name = "btnConnLocalServer";
-            this.btnConnLocalServer.Size = new System.Drawing.Size(98, 37);
-            this.btnConnLocalServer.TabIndex = 7;
-            this.btnConnLocalServer.Text = "connect";
-            this.btnConnLocalServer.UseVisualStyleBackColor = true;
-            this.btnConnLocalServer.Click += new System.EventHandler(this.btnConnLocalServer_Click);
-            // 
             // label1
             // 
             this.label1.AutoSize = true;
@@ -151,12 +139,14 @@
             this.cmbServerName.Name = "cmbServerName";
             this.cmbServerName.Size = new System.Drawing.Size(249, 20);
             this.cmbServerName.TabIndex = 5;
+            this.cmbServerName.SelectedIndexChanged += new System.EventHandler(this.cmbServerName_SelectedIndexChanged);
             // 
             // listBox_ShowItem
             // 
             this.listBox_ShowItem.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)));
             this.listBox_ShowItem.FormattingEnabled = true;
+            this.listBox_ShowItem.HorizontalScrollbar = true;
             this.listBox_ShowItem.ItemHeight = 12;
             this.listBox_ShowItem.Location = new System.Drawing.Point(12, 112);
             this.listBox_ShowItem.Name = "listBox_ShowItem";
@@ -174,9 +164,9 @@
             this.listBox_SelItem.Size = new System.Drawing.Size(47, 160);
             this.listBox_SelItem.TabIndex = 18;
             // 
-            // timerUpload
+            // Clock_Timer
             // 
-            this.timerUpload.Tick += new System.EventHandler(this.timerUpload_Tick);
+            this.Clock_Timer.Tick += new System.EventHandler(this.Clock_Timer_Tick);
             // 
             // groupBoxRate
             // 
@@ -378,9 +368,9 @@
             this.labelItemCount.AutoSize = true;
             this.labelItemCount.Location = new System.Drawing.Point(814, 403);
             this.labelItemCount.Name = "labelItemCount";
-            this.labelItemCount.Size = new System.Drawing.Size(38, 12);
+            this.labelItemCount.Size = new System.Drawing.Size(70, 12);
             this.labelItemCount.TabIndex = 67;
-            this.labelItemCount.Text = "Item：";
+            this.labelItemCount.Text = "Item Count：";
             this.labelItemCount.TextAlign = System.Drawing.ContentAlignment.BottomRight;
             // 
             // groupBoxReset
@@ -498,37 +488,39 @@
             this.DGrid.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom)
                         | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGrid.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.DGrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.DGrid.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.DGrid.DefaultCellStyle = dataGridViewCellStyle5;
             this.DGrid.Location = new System.Drawing.Point(369, 112);
             this.DGrid.Name = "DGrid";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.DGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("新細明體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.DGrid.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.DGrid.RowTemplate.Height = 24;
             this.DGrid.Size = new System.Drawing.Size(539, 268);
             this.DGrid.TabIndex = 68;
             this.DGrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGrid_CellClick);
+            this.DGrid.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGrid_CellContentClick);
+            this.DGrid.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGrid_CellDoubleClick);
             // 
             // statusStrip1
             // 
@@ -538,7 +530,6 @@
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.Size = new System.Drawing.Size(915, 22);
             this.statusStrip1.TabIndex = 69;
-            this.statusStrip1.Text = "statusStrip1";
             // 
             // toolStripStatusLabel1
             // 
@@ -670,7 +661,7 @@
         private System.Windows.Forms.ComboBox cmbServerName;
         private System.Windows.Forms.ListBox listBox_ShowItem;
         private System.Windows.Forms.ListBox listBox_SelItem;
-        private System.Windows.Forms.Timer timerUpload;
+        private System.Windows.Forms.Timer Clock_Timer;
         private System.Windows.Forms.GroupBox groupBoxRate;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtboxUploadRate;
@@ -688,7 +679,6 @@
         private System.Windows.Forms.Button buttonBackSetting;
         private System.Windows.Forms.Label labelItemCount;
         private System.Windows.Forms.Button btnApplyRate;
-        private System.Windows.Forms.Button btnConnLocalServer;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.GroupBox groupBoxReset;
         private System.Windows.Forms.CheckBox checkBoxEnableReset1;
