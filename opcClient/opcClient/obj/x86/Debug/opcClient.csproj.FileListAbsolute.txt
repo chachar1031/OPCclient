@@ -589,3 +589,133 @@ D:\Automation\@Code\Coding\C#\OPC code test\20190430m  OPC Client_A17 machine st
 D:\Automation\@Code\Coding\C#\OPC code test\20190430m  OPC Client_A17 machine state\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
 D:\Automation\@Code\Coding\C#\OPC code test\20190430m  OPC Client_A17 machine state\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
 D:\Automation\@Code\Coding\C#\OPC code test\20190430m  OPC Client_A17 machine state\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase max item amount to 2000\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase max item amount to 2000\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase max item amount to 2000\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase max item amount to 2000\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase max item amount to 2000\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase max item amount to 2000\opcClient\opcClient\bin\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase max item amount to 2000\opcClient\opcClient\bin\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase max item amount to 2000\opcClient\opcClient\obj\x86\Debug\opcClient.csprojResolveAssemblyReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase max item amount to 2000\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase max item amount to 2000\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase max item amount to 2000\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase max item amount to 2000\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000 -test\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000 -test\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000 -test\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000 -test\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000 -test\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000 -test\opcClient\opcClient\bin\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000 -test\opcClient\opcClient\bin\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000 -test\opcClient\opcClient\obj\x86\Debug\opcClient.csprojResolveAssemblyReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000 -test\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000 -test\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000 -test\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20190806  OPC Client_A16 2F_increase item amount to max 5000 -test\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191008  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191008  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191008  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191008  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191008  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191008  OPC Client_A16 2F_auto adding items\opcClient\opcClient\bin\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191008  OPC Client_A16 2F_auto adding items\opcClient\opcClient\bin\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191008  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.csprojResolveAssemblyReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191008  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191008  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191008  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191008  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191008m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191008m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191008m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191008m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191008m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191008m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\bin\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191008m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\bin\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191008m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.csprojResolveAssemblyReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191008m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191008m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191008m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191008m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191010  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191010  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191010  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191010  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191010  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191010  OPC Client_A16 2F_auto adding items\opcClient\opcClient\bin\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191010  OPC Client_A16 2F_auto adding items\opcClient\opcClient\bin\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191010  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.csprojResolveAssemblyReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191010  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191010  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191010  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191010  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191010m  OPC Client_A16 2F_auto adding items_add manual reset timing\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191010m  OPC Client_A16 2F_auto adding items_add manual reset timing\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191010m  OPC Client_A16 2F_auto adding items_add manual reset timing\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191010m  OPC Client_A16 2F_auto adding items_add manual reset timing\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191010m  OPC Client_A16 2F_auto adding items_add manual reset timing\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191010m  OPC Client_A16 2F_auto adding items_add manual reset timing\opcClient\opcClient\bin\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191010m  OPC Client_A16 2F_auto adding items_add manual reset timing\opcClient\opcClient\bin\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191010m  OPC Client_A16 2F_auto adding items_add manual reset timing\opcClient\opcClient\obj\x86\Debug\opcClient.csprojResolveAssemblyReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191010m  OPC Client_A16 2F_auto adding items_add manual reset timing\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191010m  OPC Client_A16 2F_auto adding items_add manual reset timing\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191010m  OPC Client_A16 2F_auto adding items_add manual reset timing\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191010m  OPC Client_A16 2F_auto adding items_add manual reset timing\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191012  OPC Client_A16 2F_auto adding items_spread\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191012  OPC Client_A16 2F_auto adding items_spread\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191012  OPC Client_A16 2F_auto adding items_spread\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191012  OPC Client_A16 2F_auto adding items_spread\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191012  OPC Client_A16 2F_auto adding items_spread\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191012  OPC Client_A16 2F_auto adding items_spread\opcClient\opcClient\bin\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191012  OPC Client_A16 2F_auto adding items_spread\opcClient\opcClient\bin\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191012  OPC Client_A16 2F_auto adding items_spread\opcClient\opcClient\obj\x86\Debug\opcClient.csprojResolveAssemblyReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191012  OPC Client_A16 2F_auto adding items_spread\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191012  OPC Client_A16 2F_auto adding items_spread\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191012  OPC Client_A16 2F_auto adding items_spread\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191012  OPC Client_A16 2F_auto adding items_spread\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\bin\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\bin\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.csprojResolveAssemblyReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items_spread OK\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items_spread OK\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items_spread OK\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items_spread OK\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191012m  OPC Client_A16 2F_auto adding items_spread OK\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191014  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191014  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191014  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191014  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191014  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191014  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\bin\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191014  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\bin\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191014  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.csprojResolveAssemblyReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191014  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191014  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191014  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191014  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191014m  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\Interop.OPCAutomation.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191014m  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\Interop.ORADCLib.dll
+D:\Automation\@Code\Coding\C#\OPC code test\20191014m  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.ResolveComReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191014m  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191014m  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191014m  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\bin\Debug\opcClient.exe
+D:\Automation\@Code\Coding\C#\OPC code test\20191014m  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\bin\Debug\opcClient.pdb
+D:\Automation\@Code\Coding\C#\OPC code test\20191014m  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.csprojResolveAssemblyReference.cache
+D:\Automation\@Code\Coding\C#\OPC code test\20191014m  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.FormMain.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191014m  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.FormPWD.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191014m  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.Properties.Resources.resources
+D:\Automation\@Code\Coding\C#\OPC code test\20191014m  OPC Client_A16 2F_various filter keyword starB02star for several OPCclients\opcClient\opcClient\obj\x86\Debug\opcClient.csproj.GenerateResource.Cache

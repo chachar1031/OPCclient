@@ -1,13 +1,21 @@
 ﻿
+/*案件選擇*/
 //#define E02_INJ_OPC_client //E02 成型機數據採集
-//#define A16_2F_JPT_Machine_State //A16-2F-JPT設備數據採集
+#define A16_2F_JPT_Machine_State //A16-2F-JPT設備數據採集
 //#define A17_2F_NPT_Machine_State //A17-2F-NPT設備數據採集
-#define A17_2F_NPT_Torque //A17 2F(NPT)扭力採集
+//#define A17_2F_NPT_Torque //A17 2F(NPT)扭力採集
 
 
+/*使用方式選擇*/
+#define AutoAddingOpcItemFromServer //自動從OPC server載入item, 不再手動點繫listbox添加
+//#define ManualResetTiming //手動添加清除PLC內容的時間, (不使用每日定時清除),目前E03成型使用
+
+
+/*Debug方式選擇*/
 #define SendDebugMsg //輸出debug 訊息, 於Output window
-//#define DummyUpload //假上傳到數據庫(Oracle or SQL server)
-//#define Ramp_Filter //以"Ramp"篩選opc items,無實際PLC時模擬用, 暫不用"*B02*_"
+//#define DummyUpload  //假上傳到數據庫(Oracle or SQL server)
+
+
 
 using System;
 using System.Collections.Generic;
@@ -50,59 +58,72 @@ namespace opcClient
             public int itmHandleClient;
             public int itmHandleServer;
         }
-        typeItem[] myItemArray=new typeItem[500];//max item number
+        //typeItem[] myItemArray=new typeItem[500];//max item number
+        //typeItem[] myItemArray = new typeItem[5000];//max item number
+        typeItem[] myItemArray = new typeItem[10000];//max item number
 
-        /*重要參數設置 *************************************/
+        #region 案件專用參數設置
+            /*重要參數設置 *************************************/
 #if (A17_2F_NPT_Torque) //NPT扭力採集
-        string FormTitle = "A17 2F NPT Torque";//Form標題
-        string SoftVersion = "v19.0429";//軟件版本, 防止亂套設定檔(tmp.tmp)
-        //string[] strGridColumnHeaders = { "機台ID", "螺絲#1結果", "螺絲#1扭力", "螺絲#2結果", "螺絲#2扭力", "螺絲#3結果", "螺絲#3扭力", "螺絲#4結果", "螺絲#4扭力", "觸發採集" };//數量為ItemsPerRow + 1
-        string[] strGridColumnHeaders = { "機台ID", "加工時間","等待流出時間","螺絲#1結果", "螺絲#2結果", "螺絲#3結果", "螺絲#4結果", "螺絲#1扭力", "螺絲#2扭力", "螺絲#3扭力", "螺絲#4扭力", "螺絲#1圈數", "螺絲#2圈數", "螺絲#3圈數", "螺絲#4圈數", "觸發採集" };//數量為ItemsPerRow + 1
-        string strServerIP = "10.194.176.65"; //上傳server IP
-        int intServerPort = 1433;//預設值.//上傳server port
+            string FormTitle = "A17 2F NPT Torque";//Form標題
+            string SoftVersion = "v19.0429";//軟件版本, 防止亂套設定檔(tmp.tmp)
+            //string[] strGridColumnHeaders = { "機台ID", "螺絲#1結果", "螺絲#1扭力", "螺絲#2結果", "螺絲#2扭力", "螺絲#3結果", "螺絲#3扭力", "螺絲#4結果", "螺絲#4扭力", "觸發採集" };//數量為ItemsPerRow + 1
+            string[] strGridColumnHeaders = { "機台ID", "加工時間", "等待流出時間", "螺絲#1結果", "螺絲#2結果", "螺絲#3結果", "螺絲#4結果", "螺絲#1扭力", "螺絲#2扭力", "螺絲#3扭力", "螺絲#4扭力", "螺絲#1圈數", "螺絲#2圈數", "螺絲#3圈數", "螺絲#4圈數", "觸發採集" };//數量為ItemsPerRow + 1
+            string strServerIP = "10.194.176.65"; //上傳server IP
+            int intServerPort = 1433;//預設值.//上傳server port
+            string strOpcFilter = "*B02*_";//opc item篩選用字串, 若不包含此字串, opc客戶端不採用
 #endif
 
 #if (A17_2F_NPT_Machine_State) //A17-2F-NPT設備數據採集
-        string FormTitle = "A17 2F NPT Machine State";//Form標題
-        string SoftVersion = "v19.0430m";//軟件版本, 防止亂套設定檔(tmp.tmp)
-        string[] strGridColumnHeaders = { "機台ID", "(DMIP_1", "DMIP_2", "DMIP_3", "DMIP_4)", "狀態", "報警代碼", "投入數", "OK數", "NG數" };//數量為ItemsPerRow + 1
-        string strServerIP = "10.194.176.65"; //上傳server IP
-        int intServerPort = 1433;//預設值.//上傳server port
+            string FormTitle = "A17 2F NPT Machine State";//Form標題
+            string SoftVersion = "v19.0430m";//軟件版本, 防止亂套設定檔(tmp.tmp)
+            string[] strGridColumnHeaders = { "機台ID", "DMIP1", "DMIP2", "DMIP3", "DMIP4", "狀態", "報警代碼", "投入數", "OK數", "NG數" };//數量為ItemsPerRow + 1
+            string strServerIP = "10.194.176.65"; //上傳server IP
+            int intServerPort = 1433;//預設值.//上傳server port
+            string strOpcFilter = "*B02*_";//opc item篩選用字串, 若不包含此字串, opc客戶端不採用
 #endif
 
 #if (A16_2F_JPT_Machine_State)
-        string FormTitle = "A16 2F JPT Machine State";//Form標題
-        string SoftVersion = "v19.0430";//軟件版本, 防止亂套設定檔(tmp.tmp)
-        //int ItemsPerRow = 6;//Grid中, 每行要新增(選取)的item數量(不含"機台ID"及"OPC連線狀態"兩個欄位), 用來自動計算 換行&各item在grid中位置
-        string[] strGridColumnHeaders = { "機台ID", "(DMIP_1", "DMIP_2", "DMIP_3", "DMIP_4)", "狀態", "報警代碼", "投入數", "OK數", "NG數" };//數量為ItemsPerRow + 1
-        string strServerIP = "10.194.176.65"; //上傳server IP
-        int intServerPort = 1433;//預設值.//上傳server port
+            string FormTitle = "A16 2F JPT Machine State";//Form標題
+            string SoftVersion = "v19.1014";//軟件版本, 防止亂套設定檔(tmp.tmp)
+            //int ItemsPerRow = 6;//Grid中, 每行要新增(選取)的item數量(不含"機台ID"及"OPC連線狀態"兩個欄位), 用來自動計算 換行&各item在grid中位置
+            string[] strGridColumnHeaders = { "機台ID", "DMIP1", "DMIP2", "DMIP3", "DMIP4", "狀態", "報警代碼", "投入數", "OK數", "NG數" };//數量為ItemsPerRow + 1
+            string strServerIP = "10.194.176.65"; //上傳server IP
+            int intServerPort = 1433;//預設值.//上傳server port
+            string strOpcFilter = "*B02*_";//opc item篩選用字串, 若不包含此字串, opc客戶端不採用
 #endif
 
 #if (E02_INJ_OPC_client)//E02成型機數據採集
-        string FormTitle = "E02 INJ OPC Client";//Form標題
-        string SoftVersion = "v19.0430";//軟件版本, 防止亂套設定檔(tmp.tmp)
-        //int ItemsPerRow = 10;//Grid中, 每行要新增(選取)的item數量(不含"機台ID"及"OPC連線狀態"兩個欄位), 用來自動計算 換行&各item在grid中位置
-        string[] strGridColumnHeaders = { "機台ID", "產量", "狀態" };//數量為ItemsPerRow + 1
-        string strServerIP = "10.200.145.51";//上傳server IP
-        int intServerPort = 1526;//預設值.//上傳server port
+            string FormTitle = "E02 INJ OPC Client";//Form標題
+            string SoftVersion = "v19.0430";//軟件版本, 防止亂套設定檔(tmp.tmp)
+            //int ItemsPerRow = 10;//Grid中, 每行要新增(選取)的item數量(不含"機台ID"及"OPC連線狀態"兩個欄位), 用來自動計算 換行&各item在grid中位置
+            string[] strGridColumnHeaders = { "機台ID", "產量", "狀態" };//數量為ItemsPerRow + 1
+            string strServerIP = "10.200.145.51";//上傳server IP
+            int intServerPort = 1526;//預設值.//上傳server port
+            string strOpcFilter = "*B02inj*_";//opc item篩選用字串, 若不包含此字串, opc客戶端不採用
 #endif
         /***************************************************/
-        int ItemsPerRow = 0;//Grid中, 每行要新增(選取)的item數量, 其值改為從標題欄位數量自動計算(strGridColumnHeaders.Length-1),不含"機台ID"欄位
-        int UploadTimerCount = 0;//Timer每次加1, Clock時鐘功能
-        int UploadTimerCountTarget = 0;//UploadTimerCount累加到此值後,觸發upload功能算何時要Upload
+
+        #endregion
 
 
-        //int MaxOpcItem=100;//
-        int OpcItemCount=0;//OPC item 數量,  另用於ClientHandle計算.
-        bool EnableSetting_f = false;
-        bool StartDeleteRow_f = false;//進入刪除整列狀態
-        bool StartChangeOrder_f = false;//進入列手動排序狀態
+        #region 系統共用變數
+            int ItemsPerRow = 0;//Grid中, 每行要新增(選取)的item數量, 其值改為從標題欄位數量自動計算(strGridColumnHeaders.Length-1),不含"機台ID"欄位
+            int UploadTimerCount = 0;//Timer每次加1, Clock時鐘功能
+            int UploadTimerCountTarget = 0;//UploadTimerCount累加到此值後,觸發upload功能算何時要Upload
 
-        #region File讀取暫存變數
+            //int MaxOpcItem=100;//
+            int OpcItemCount=0;//OPC item 數量,  另用於ClientHandle計算.
+            bool EnableSetting_f = false;
+            bool StartDeleteRow_f = false;//進入刪除整列狀態
+            bool StartChangeOrder_f = false;//進入列手動排序狀態
 
+             /*File讀取用暫存變數*/
             List<string> File_SourceItemList = new List<string>();//KEPserver(listBox_ShowItem上)的item name*
             List<string> File_SelList = new List<string>();//KEPserver(listBox_SelItem上)的item index number*
+#if (ManualResetTiming) //手動添加清除PLC內容的時間, (不使用每日定時清除)
+            List<string> File_ManualResetTimeList = new List<string>();//手動添加的清除時間
+#endif
             string File_OPCserverName = "";
             string File_UpdateRate = "";
             string File_UploadRate = "";
@@ -113,12 +134,8 @@ namespace opcClient
             string File_ResetMinute1 = "";
             string File_ResetMinute2 = "";
        
-        #endregion
 
-
-        #region 私有变量
-
-        //4個功能按鈕
+            //4個功能按鈕
             const int FuncBTN_1 = 1;//功能按鈕1
             const int FuncBTN_2 = 2;//功能按鈕2
             const int FuncBTN_3 = 3;//功能按鈕3
@@ -131,8 +148,8 @@ namespace opcClient
             const int FuncMOVE_UP = 21;//move up, 上移功能
             const int FuncMOVE_DOWN = 22;//move down, 下移功能
 
-
         #endregion
+
 
         public FormMain()
         {
@@ -318,10 +335,6 @@ namespace opcClient
             EnableSetting(false);//設定功能預設禁用
 
 
-            /*获取本地计算机IP,计算机名称*/
-            label_localIP.Text =  "Local IP  ：" + GetLocalIP() ;
-            label_ServerIP.Text = "Server IP ：" + strServerIP;
-
 
             /*枚举本地OPC服务器*/
             if (!ListLocalServer())
@@ -344,14 +357,6 @@ namespace opcClient
                 return;
             }
 
-
-#if(DummyUpload)
-            toolStripStatusLabel1.Text = "Dummy_Upload";
-#endif
-
-#if(Ramp_Filter) //以"Ramp"篩選opc items,無實際PLC時模擬用, 暫不用"*B02*_"
-            toolStripStatusLabel1.Text = toolStripStatusLabel1.Text + ",  Ramp_Filter";
-#endif
         }
 
         private void Outlook_setting()
@@ -364,19 +369,29 @@ namespace opcClient
             {
                 comboBoxResetHour1.Items.Add((string.Concat(i)).PadLeft(2, '0')); //若不足2位,前面補0
                 comboBoxResetHour2.Items.Add((string.Concat(i)).PadLeft(2, '0'));//若不足2位,前面補0
+                comboBoxManualResetHour.Items.Add((string.Concat(i)).PadLeft(2, '0'));//若不足2位,前面補0
             }
 
             /*Reset combo 內容填入, Add ResetMin combo items*/
-            for (int i = 0; i <= 59; i++)
+            for (int i = 0; i <= 5; i++)
             {
-                comboBoxResetMin1.Items.Add((string.Concat(i)).PadLeft(2, '0')); //若不足2位,前面補0
-                comboBoxResetMin2.Items.Add((string.Concat(i)).PadLeft(2, '0')); //若不足2位,前面補0
+                comboBoxResetMin1.Items.Add((string.Concat(i*10)).PadLeft(2, '0')); //若不足2位,前面補0
+                comboBoxResetMin2.Items.Add((string.Concat(i*10)).PadLeft(2, '0')); //若不足2位,前面補0
+                comboBoxManualResetMin.Items.Add((string.Concat(i * 10)).PadLeft(2, '0')); //若不足2位,前面補0
             }
 
+            comboBoxManualResetHour.SelectedIndex = 8;//初始預設值(08:00AM)
+            comboBoxManualResetMin.SelectedIndex = 0;//初始預設值
+
+            /*設定dateTimePicker 格式*/
+            dateTimePickerManualReset.Format = DateTimePickerFormat.Custom;
+            dateTimePickerManualReset.CustomFormat = "yyyy-MM-dd";
 
 
             /* grid setting  *******************************************************/
             DGrid.ColumnCount = ItemsPerRow + 1;//設置Grid總欄數
+            this.DGrid.AllowUserToAddRows = false;//避免產生最後一行(空白)
+            DGrid.Rows.Add(1);//初始化
 
             //在grid最後,添加"<OPC連線狀態>一欄, 為textbox樣式
             //DataGridViewButtonColumn btn = new DataGridViewButtonColumn();
@@ -394,7 +409,9 @@ namespace opcClient
             //設置各欄標題
             for (int i = 0; i < DGrid.ColumnCount-1; i++)
             {
-                DGrid.Columns[i].Name = i + "." + strGridColumnHeaders[i]; //設置各欄標題
+                //DGrid.Columns[i].Name = i + "_" + strGridColumnHeaders[i]; //設置各欄標題
+                DGrid.Columns[i].Name = (string.Concat(i)).PadLeft(2, '0') + "_" + strGridColumnHeaders[i]; //設置各欄標題, 序號若不足2位,前面補0
+
                 DGrid.Columns[i].DefaultCellStyle.Alignment=DataGridViewContentAlignment.MiddleRight ;//內容靠右對齊
                 DGrid.Columns[i].SortMode = DataGridViewColumnSortMode.NotSortable;//禁止點擊header排序
             }
@@ -404,17 +421,31 @@ namespace opcClient
             //DGrid.RowHeadersDefaultCellStyle.Alignment = DataGridViewContentAlignment.MiddleCenter;//列標題靠左對齊
             DGrid.RowHeadersWidth = 60;//標題欄寛度設定.     
 
-            groupBoxSetting.Width = 270;
+            //groupBoxSetting.Width = 270;
 
             groupBoxLog.Width = 430;
             groupBoxLog.Location = groupBoxSetting.Location;
 
-            groupBoxFunction.Width = 135;
+            //groupBoxFunction.Width = 135;
             //groupBoxFunction.Location = groupBoxSetting.Location;
 
 
+            /*清除PLC方式, 手動或自動*/
+#if (ManualResetTiming) //手動添加清除PLC內容的時間, (不使用每日定時清除)
+            groupBoxAutoReset.Visible=false;
+            groupBoxManualReset.Visible = true;
+            groupBoxManualReset.Location = groupBoxAutoReset.Location;
+#else
+            groupBoxAutoReset.Visible=true;
+            groupBoxManualReset.Visible = false;
+#endif
+            
+            listBox_ResetTime.Sorted = true;//item自動排序
 
-            //自動計算grid及windows寛度
+//#if(AutoAddingOpcItemFromServer) //自動從OPC server載入item, 不再手動點繫listbox添加)
+//            listBox_SelItem.Visible = false;
+//#endif
+                    //自動計算grid及windows寛度
             //int TotalColWidth=0;//所有column寛度總合
             //for (int i = 0; i < DGrid.ColumnCount; i++)
             //{
@@ -426,14 +457,27 @@ namespace opcClient
                 pictureBox1.Width = DGrid.Width;
                 //this.Width = DGrid.Width + 390;
             //}
-           
-            
-            
+          
             /* *********************************************************************/
 
+                /*系統信息顯示*/
+                label_localIP.Text = "◎Local IP： " + GetLocalIP();//顯示本機IP
+                label_ServerIP.Text = "◎Server IP： " + strServerIP;//顯示服務器IP
+                label_OpcFilterString.Text = "◎Filter String：  " + strOpcFilter;//顯示過濾用字串
+#if(AutoAddingOpcItemFromServer) //自動從OPC server載入item, 不再手動點繫listbox添加)               
+                label_ItemAddingMode.Text="◎Adding Mode： AUTO";//顯示"自動"添加opc item模式
+#else
+                label_ItemAddingMode.Text = "◎Adding Mode： MANUAL";//顯示"手動"添加opc item模式
+#endif
 
+
+#if(DummyUpload)//假上傳到數據庫(Oracle or SQL server)
+                toolStripStatusLabel1.Text = "Dummy_Upload  ";
+#endif
 
         }
+
+
         #region 方法
         /// <summary>
         /// 枚举本地OPC服务器
@@ -494,12 +538,8 @@ namespace opcClient
             oPCBrowser.ShowLeafs(true);
             foreach (object turn in oPCBrowser)
             {
-
-#if(Ramp_Filter) //以"Ramp"篩選opc items,無實際PLC時模擬用, 暫不用"*B02*_"
-                if (turn.ToString().Contains("Ramp"))//篩選指定的Item.(Item名稱需包含"Ramp" 字串,無實際PLC時,模擬用)
-#else
-                if (turn.ToString().Contains("*B02*_"))//篩選指定的Item.(Item名稱需包含"*B02*_" 字串)
-#endif
+                //if (turn.ToString().Contains("*B02*_"))//篩選指定的Item.(Item名稱需包含"*B02*_" 字串)
+                if (turn.ToString().Contains(strOpcFilter))//篩選指定的Item.(Item名稱需包含"*B02*_" 字串)
                 {
                     //listBox_ShowItem.Items.Add(turn.ToString());
                     listBox_ShowItem.Items.Insert(0, turn.ToString());
@@ -543,11 +583,112 @@ namespace opcClient
 
         }
 
+#if (AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
 
+        private void AutoAddingOpcItemFromServer()
+        {
+
+            //check Listbox_showitem 
+            if (CheckListboxItemsOK())
+            {
+                LOG("OPC Items 格式確認OK! CheckListboxItemsOK() ");
+            }
+            else
+            {
+                LOG("OPC Items 格式確認NG! CheckListboxItemsOK() ");
+                return;
+            }
+            
+
+            //if ok, Add machine ID & opc items (in a row)
+            int GridRowIndex = 0;//插入gird之行
+            for (int DevStart = 0; DevStart < listBox_ShowItem.Items.Count / ItemsPerRow; DevStart++)//針對每一台設備
+            {
+                string FirstItem = listBox_ShowItem.Items[DevStart*ItemsPerRow].ToString();
+
+                //if (FirstItem.IndexOf("_O") != -1)//包含採集字串"_O"
+                if (FirstItem.Contains("_O"))//包含採集字串"_O"
+                {
+                    string ID = GetIDstring(FirstItem);//get ID string
+
+                    if (FirstItem.Contains("O_"))//包含上傳字串"O_"
+                        DGrid.Rows[GridRowIndex].Cells[0].Value = ID;//填入machine ID
+                    else
+                        DGrid.Rows[GridRowIndex].Cells[0].Value = "(X) "+ID;//填入machine ID
+
+                    for (int j = 0; j < ItemsPerRow; j++)//每一筆item
+                    {
+                        string itm = listBox_ShowItem.Items[DevStart * ItemsPerRow + j].ToString();
+                        AddOpcItemProcess(itm);
+                    }
+                    GridRowIndex++;
+                }
+            }
+
+        }
+
+
+        bool CheckListboxItemsOK()
+        {
+
+            if (listBox_ShowItem.Items.Count % ItemsPerRow != 0)//listbox item總個數需為 單台採集個數 之倍數
+            {
+                LOG("OPC items 總數有誤 : " + listBox_ShowItem.Items.Count);
+                MessageBox.Show("OPC items 總數有誤 : " + listBox_ShowItem.Items.Count);
+                return false;
+            }
+
+
+            for (int DevStart = 0; DevStart < listBox_ShowItem.Items.Count / ItemsPerRow; DevStart++)//針對每一台設備
+            {
+                string ID = GetIDstring(listBox_ShowItem.Items[DevStart * ItemsPerRow].ToString());//get ID string
+                for (int j = 0; j < ItemsPerRow; j++)//每一筆item
+                {
+                    string itm = listBox_ShowItem.Items[DevStart*ItemsPerRow+j].ToString();
+                    string column = DGrid.Columns[j+1].Name;
+
+                    //if (itm.IndexOf(ID) != -1 && itm.IndexOf(column) != -1)
+                    if (itm.Contains(ID) && itm.Contains(column))//item需包含machineID及參數名稱(Grid欄位名稱)
+                    {
+                        //no problem
+                        //Console.WriteLine("OK:" + itm + ",(" + itm.IndexOf(ID) + "," + itm.IndexOf(column)+")");
+                    }
+                    else
+                    {
+                        Console.WriteLine("ID:" + ID);
+                        Console.WriteLine("column:"+column);
+
+                        LOG("OPC item error : " + itm);
+                        LOG("ID:" + ID);
+                        LOG("column:" + column);
+
+                        MessageBox.Show("OPC item error : " + itm);
+                        return false;
+                    }
+                }
+            }
+
+            return true;
+        }
+
+
+
+        private string GetIDstring(string ItemStr)
+        {
+            /*格式:Channel_Kenny.ID_1901_OO_鎖上蓋螺絲機.*B02*_1_DMIP1  */
+            int startPSN=ItemStr.IndexOf("ID_",0) + 3; //搜尋ID起始位置
+            int endPSN = ItemStr.IndexOf("_", startPSN);//搜尋ID結束位置
+            string ID = ItemStr.Substring(startPSN,endPSN-startPSN);//取出ID字串
+
+            return ID;
+        }
+
+#endif 
 
 
         private void listBox_ShowItem_MouseDoubleClick(object sender, MouseEventArgs e)
         {
+#if (!AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
             if (this.listBox_ShowItem.SelectedItem != null)
             {
                 /*計算此Item預計要插入Grid的位置(Row),是否己先填好ID */
@@ -566,6 +707,7 @@ namespace opcClient
 
                 }
             }
+#endif
         }
 
         private void AddOpcItemProcess(string itemName)
@@ -575,14 +717,16 @@ namespace opcClient
             //DGrid.Rows[(OpcItemCount - 1) / 6].Cells[((OpcItemCount - 1) % 6) + 1].Selected = false;//取消現有儲存格的選取(反白).
             //DGrid.Rows[gridRow(OpcItemCount)].Cells[gridCell(OpcItemCount)].Selected = false;//現有儲存格的選取(反白)取消.
 
-            if (OpcItemCount % ItemsPerRow == 1)//每新增N個opcItem 後, grid新增一行
+            //if (OpcItemCount % ItemsPerRow == 1)//每新增N個opcItem 後, grid新增一行
+            if (OpcItemCount % ItemsPerRow == 0)//每新增N個opcItem 後, grid新增一行
             {
                 if ((OpcItemCount / ItemsPerRow) >= (DGrid.RowCount - 1))
                 {
                     DGrid.Rows.Add(1);
+
                     for (int i = 0; i < DGrid.RowCount; i++)
                     {
-                        DGrid.Rows[i].HeaderCell.Value = string.Concat(i + 1);//列標題
+                        DGrid.Rows[i].HeaderCell.Value = string.Concat(i + 1);//每列加上列標題
                     }
                 }
             }
@@ -598,25 +742,26 @@ namespace opcClient
 
             //comboWriteItem.Items.Add(itemName);
 
-            labelItemCount.Text = "Item count： " + OpcItemCount;
+            labelItemCount.Text = "Item Count： " + OpcItemCount;
  
             int NextItemCount = OpcItemCount + 1;
 
-            /*計算下一個Item顯示位置(反白選取),及判斷是否要新增一行********************/
-            if (gridRow(NextItemCount) > DGrid.RowCount-1)
+#if (!AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
+            ///*計算下一個Item顯示位置(反白選取),及判斷是否要新增一行********************/
+            if (gridRow(NextItemCount) > DGrid.RowCount - 1)
             {
-                DGrid.Rows.Add(1);//新增一行
+                //DGrid.Rows.Add(1);//新增一行
                 for (int i = 0; i < DGrid.RowCount; i++)
                 {
                     DGrid.Rows[i].HeaderCell.Value = string.Concat(i + 1);//列標題
                 }
-             }
+            }
 
             DGrid.ClearSelection();//取消選取
             DGrid.Rows[gridRow(NextItemCount)].Cells[gridCell(NextItemCount)].Selected = true;//下一儲存格的選取(反白)
 
-            /***************************************************************************/
-
+            ///***************************************************************************/
+#endif
             SendMsg("NextItemCount:" + NextItemCount + ", gridRow:" + gridRow(NextItemCount) + ", gridCell:" + gridCell(NextItemCount));
 
         }
@@ -651,6 +796,7 @@ namespace opcClient
         {
             if (buttonStartUpload.Text == "START")
             {
+
                 if (!CheckGridData()) //*檢查grid內容是否正確*/
                     return;
 
@@ -689,28 +835,35 @@ namespace opcClient
                 int ConnState = OPCquality(Convert.ToInt32(DGrid.Rows[i].Cells[ItemsPerRow + 1].Value));//opc連線狀態 0:NG  1:OK
                 string myTime = DateTime.Now.ToString("yyyy-MM-dd,HH:mm:ss");//系統時間
 
-                if (ConnState != 0) //OPC正常連線狀態
+#if (AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
+                if (!ID.Contains("(X)"))//ID不含"(X)"字串, 可上傳
                 {
-                    string DMIP = string.Concat(DGrid.Rows[i].Cells[1].Value, ".", DGrid.Rows[i].Cells[2].Value, ".", DGrid.Rows[i].Cells[3].Value, ".", DGrid.Rows[i].Cells[4].Value);
-                    uint STATE = Convert.ToUInt32(DGrid.Rows[i].Cells[5].Value);//
-                    uint ERR = Convert.ToUInt32(DGrid.Rows[i].Cells[6].Value);//報警狀態位數擴充(Word->DWORD)，變數Type對應(int->uint), 32位
-                    uint InputCnt = Convert.ToUInt32(DGrid.Rows[i].Cells[7].Value);//投入數量
-                    uint OKCnt = Convert.ToUInt32(DGrid.Rows[i].Cells[8].Value);//OK數量
-                    uint NGCnt = Convert.ToUInt32(DGrid.Rows[i].Cells[9].Value);//NG數量
+#endif
+                    if (ConnState != 0) //OPC正常連線狀態
+                    {
+                        string DMIP = string.Concat(DGrid.Rows[i].Cells[1].Value, ".", DGrid.Rows[i].Cells[2].Value, ".", DGrid.Rows[i].Cells[3].Value, ".", DGrid.Rows[i].Cells[4].Value);
+                        uint STATE = Convert.ToUInt32(DGrid.Rows[i].Cells[5].Value);//
+                        uint ERR = Convert.ToUInt32(DGrid.Rows[i].Cells[6].Value);//報警狀態位數擴充(Word->DWORD)，變數Type對應(int->uint), 32位
+                        uint InputCnt = Convert.ToUInt32(DGrid.Rows[i].Cells[7].Value);//投入數量
+                        uint OKCnt = Convert.ToUInt32(DGrid.Rows[i].Cells[8].Value);//OK數量
+                        uint NGCnt = Convert.ToUInt32(DGrid.Rows[i].Cells[9].Value);//NG數量
 
-                    //上傳grid to SQL server 
-                    //改為update方式, 不刪除/新增動作, Kenny, 2018-7-31
-                    //機台離線時,只更新連線狀態及時間欄位, 2018-11-08
+                        //上傳grid to SQL server 
+                        //改為update方式, 不刪除/新增動作, Kenny, 2018-7-31
+                        //機台離線時,只更新連線狀態及時間欄位, 2018-11-08
 
-                    //cmd.CommandText = MakeUpdateString(ID, DMIP, STATE, ERR, InputCnt, OKCnt, NGCnt, ConnState, myTime);
-                    Update_to_SQL(ID, DMIP, STATE, ERR, InputCnt, OKCnt, NGCnt, ConnState, myTime);
+                        //cmd.CommandText = MakeUpdateString(ID, DMIP, STATE, ERR, InputCnt, OKCnt, NGCnt, ConnState, myTime);
+                        Update_to_SQL(ID, DMIP, STATE, ERR, InputCnt, OKCnt, NGCnt, ConnState, myTime);
 
+                    }
+                    else//OPC離線狀態(item欄位可能為空)
+                    {
+                        //cmd.CommandText = MakeUpdateStringOFFLine(ID, ConnState, myTime); //只更新狀態、時間
+                        Update_to_SQL_Offline(ID, ConnState, myTime);
+                    }
+#if (AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
                 }
-                else//OPC離線狀態(item欄位可能為空)
-                {
-                    //cmd.CommandText = MakeUpdateStringOFFLine(ID, ConnState, myTime); //只更新狀態、時間
-                    Update_to_SQL_Offline(ID, ConnState, myTime);
-                }
+#endif
             }
         }
 
@@ -759,9 +912,9 @@ namespace opcClient
                 "',connectFlag='" + _connState + "',Timestamp='" + _time + "' WHERE MachineID='" + _id + "'");
             
             cmd.Connection = sqlConnection1;
-        #if(!DummyUpload)
+#if(!DummyUpload)//假上傳到數據庫(Oracle or SQL server)
             cmd.ExecuteNonQuery();//執行SQL命令
-        #endif
+#endif
 
             sqlConnection1.Close();
         }
@@ -816,16 +969,16 @@ namespace opcClient
             //LOG(cmd.CommandText);
 
             cmd.Connection = sqlConnection1;
-        #if(!DummyUpload)
+#if(!DummyUpload)//假上傳到數據庫(Oracle or SQL server)
             cmd.ExecuteNonQuery();//執行SQL命令
-        #endif
+#endif
 
             sqlConnection1.Close();
         }
 
 #endif
 
-//#if (A17_2F_NPT_Machine_State )//A17-2F-NPT設備數據採集
+        //#if (A17_2F_NPT_Machine_State )//A17-2F-NPT設備數據採集
 //        /*Upload data to SQL server*/
 //        public void UploadToSQL()
 //        {
@@ -893,7 +1046,7 @@ namespace opcClient
 //                }
 
 //                cmd.Connection = sqlConnection1;
-//        #if(!DummyUpload)
+//        #if(!DummyUpload)//假上傳到數據庫(Oracle or SQL server)
 //                cmd.ExecuteNonQuery();
 //        #endif
 //            }
@@ -921,43 +1074,49 @@ namespace opcClient
 
                 int flag_trigger = Convert.ToInt32(DGrid.Rows[i].Cells[15].Value);//觸發採集信號
 
-                if (ConnState != 0) //OPC連線狀態正常
+#if (AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
+                if (!ID.Contains("(X)"))//ID不含"(X)"字串, 可上傳
                 {
-                    if (flag_trigger != 0) //有觸發
+#endif
+                    if (ConnState != 0) //OPC連線狀態正常
                     {
-                        float cycleTime = Convert.ToSingle(DGrid.Rows[i].Cells[1].Value);
-                        float waitTime = Convert.ToSingle(DGrid.Rows[i].Cells[2].Value);
+                        if (flag_trigger != 0) //有觸發
+                        {
+                            float cycleTime = Convert.ToSingle(DGrid.Rows[i].Cells[1].Value);
+                            float waitTime = Convert.ToSingle(DGrid.Rows[i].Cells[2].Value);
 
-                        int Scr1_result = (int)DGrid.Rows[i].Cells[3].Value;//鎖附結果1
-                        int Scr2_result = (int)DGrid.Rows[i].Cells[4].Value;
-                        int Scr3_result = (int)DGrid.Rows[i].Cells[5].Value;
-                        int Scr4_result = (int)DGrid.Rows[i].Cells[6].Value;
+                            int Scr1_result = (int)DGrid.Rows[i].Cells[3].Value;//鎖附結果1
+                            int Scr2_result = (int)DGrid.Rows[i].Cells[4].Value;
+                            int Scr3_result = (int)DGrid.Rows[i].Cells[5].Value;
+                            int Scr4_result = (int)DGrid.Rows[i].Cells[6].Value;
 
-                        //float Scr1_force = (float)DGrid.Rows[i].Cells[2].Value;
-                        float Scr1_force = Convert.ToSingle(DGrid.Rows[i].Cells[7].Value);//扭力值1
-                        float Scr2_force = Convert.ToSingle(DGrid.Rows[i].Cells[8].Value);
-                        float Scr3_force = Convert.ToSingle(DGrid.Rows[i].Cells[9].Value);
-                        float Scr4_force = Convert.ToSingle(DGrid.Rows[i].Cells[10].Value);
+                            //float Scr1_force = (float)DGrid.Rows[i].Cells[2].Value;
+                            float Scr1_force = Convert.ToSingle(DGrid.Rows[i].Cells[7].Value);//扭力值1
+                            float Scr2_force = Convert.ToSingle(DGrid.Rows[i].Cells[8].Value);
+                            float Scr3_force = Convert.ToSingle(DGrid.Rows[i].Cells[9].Value);
+                            float Scr4_force = Convert.ToSingle(DGrid.Rows[i].Cells[10].Value);
 
-                        float Scr1_circle = Convert.ToSingle(DGrid.Rows[i].Cells[11].Value);//鎖附圈數1
-                        float Scr2_circle = Convert.ToSingle(DGrid.Rows[i].Cells[12].Value);
-                        float Scr3_circle = Convert.ToSingle(DGrid.Rows[i].Cells[13].Value);
-                        float Scr4_circle = Convert.ToSingle(DGrid.Rows[i].Cells[14].Value);
+                            float Scr1_circle = Convert.ToSingle(DGrid.Rows[i].Cells[11].Value);//鎖附圈數1
+                            float Scr2_circle = Convert.ToSingle(DGrid.Rows[i].Cells[12].Value);
+                            float Scr3_circle = Convert.ToSingle(DGrid.Rows[i].Cells[13].Value);
+                            float Scr4_circle = Convert.ToSingle(DGrid.Rows[i].Cells[14].Value);
 
-                        //cmd.CommandText = MakeUpdateString(ID, DMIP, STATE, ERR, InputCnt, OKCnt, NGCnt, ConnState, myTime);
-                        //Insert_to_SQL(ID, Scr1_result, Scr2_result, Scr3_result, Scr4_result, Scr1_force, Scr2_force, Scr3_force, Scr4_force);
-                        Insert_to_SQL(ID, cycleTime, waitTime, Scr1_result, Scr2_result, Scr3_result, Scr4_result, Scr1_force, Scr2_force, Scr3_force, Scr4_force, Scr1_circle, Scr2_circle, Scr3_circle, Scr4_circle);
+                            //cmd.CommandText = MakeUpdateString(ID, DMIP, STATE, ERR, InputCnt, OKCnt, NGCnt, ConnState, myTime);
+                            //Insert_to_SQL(ID, Scr1_result, Scr2_result, Scr3_result, Scr4_result, Scr1_force, Scr2_force, Scr3_force, Scr4_force);
+                            Insert_to_SQL(ID, cycleTime, waitTime, Scr1_result, Scr2_result, Scr3_result, Scr4_result, Scr1_force, Scr2_force, Scr3_force, Scr4_force, Scr1_circle, Scr2_circle, Scr3_circle, Scr4_circle);
 
-                        /*清除PLC之觸發flag (OPC item & Grid data)*/
-                        ResetOnePLCitemValue((i+1) * 15 - 1);//reset trigger value (OPC item), 15: trigger欄位之OPC item 位置.
+                            /*清除PLC之觸發flag (OPC item & Grid data)*/
+                            ResetOnePLCitemValue((i+1) * 15 - 1);//reset trigger value (OPC item), 15: trigger欄位之OPC item 位置.
 
-                        /*清除Grid的觸發cell*/
-                        DGrid.Rows[i].Cells[15].Value = 0; //clear trigger field value (in grid), 15: trigger欄位之OPC item 位置.
+                            /*清除Grid的觸發cell*/
+                            DGrid.Rows[i].Cells[15].Value = 0; //clear trigger field value (in grid), 15: trigger欄位之OPC item 位置.
                     
+                        }
+
                     }
-
+#if (AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
                 }
-
+#endif
             }
 
         }
@@ -992,9 +1151,9 @@ namespace opcClient
             string clearString = "DELETE FROM INJ_TRANKING_WARNING_T";//clear whole Table data
 
             OracleCommand CLRorcCMD = new OracleCommand(clearString, orcCon);
-        #if(!DummyUpload)
+#if(!DummyUpload)//假上傳到數據庫(Oracle or SQL server)
             CLRorcCMD.ExecuteNonQuery();
-        #endif
+#endif
             orcCon.Close();
         }
         
@@ -1009,18 +1168,23 @@ namespace opcClient
                 {
                     string ID = string.Concat(DGrid.Rows[i].Cells[0].Value);
                     int ConnState = OPCquality(Convert.ToInt32(DGrid.Rows[i].Cells[ItemsPerRow + 1].Value));//opc連線狀態 0:NG  1:OK
-
-                    if (ConnState != 0) //OPC正常連線狀態
+#if (AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
+                    if (!ID.Contains("(X)"))//ID不含"(X)"字串, 可上傳
                     {
-                        //int AMOUNT = (int)DGrid.Rows[i].Cells[1].Value;
-                        int AMOUNT = Convert.ToInt32(DGrid.Rows[i].Cells[1].Value);
-                        int STATE = Convert.ToInt32(DGrid.Rows[i].Cells[2].Value);
+#endif
+                        if (ConnState != 0) //OPC正常連線狀態
+                        {
+                            //int AMOUNT = (int)DGrid.Rows[i].Cells[1].Value;
+                            int AMOUNT = Convert.ToInt32(DGrid.Rows[i].Cells[1].Value);
+                            int STATE = Convert.ToInt32(DGrid.Rows[i].Cells[2].Value);
 
-                        //cmd.CommandText = MakeUpdateString(ID, DMIP, STATE, ERR, myTime);//UPDATE 方式
-                        //string sqlString = MakeInsertString(ID, STATE, AMOUNT);//INSERT方式
-                        Insert_to_Oracle(ID, STATE, AMOUNT);
+                            //cmd.CommandText = MakeUpdateString(ID, DMIP, STATE, ERR, myTime);//UPDATE 方式
+                            //string sqlString = MakeInsertString(ID, STATE, AMOUNT);//INSERT方式
+                            Insert_to_Oracle(ID, STATE, AMOUNT);
+                        }
+#if (AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
                     }
-                    
+#endif
                 }
             }
 
@@ -1061,7 +1225,7 @@ namespace opcClient
             /*INSERT to table, 插入資料*/
             string sqlString = string.Concat("INSERT INTO INJ_TRANKING_WARNING_T (INJ_ID,STATE,AMOUNT) VALUES (" + "'" + _ip + "'" + ',' + _state + "," + _amount + ")");//INSERT方式
             OracleCommand orcCMD = new OracleCommand(sqlString, orcCon);
-#if(!DummyUpload)
+#if(!DummyUpload)//假上傳到數據庫(Oracle or SQL server)
             orcCMD.ExecuteNonQuery();
 #endif
 
@@ -1114,9 +1278,9 @@ namespace opcClient
             //LOG(cmd.CommandText);
 
             cmd.Connection = sqlConnection1;
-        #if(!DummyUpload)
+#if(!DummyUpload)//假上傳到數據庫(Oracle or SQL server)
             cmd.ExecuteNonQuery();//執行SQL命令
-        #endif
+#endif
 
             sqlConnection1.Close();
         }
@@ -1125,7 +1289,7 @@ namespace opcClient
 
 #endif
 
-//#if (A16_2F_JPT_Machine_State || A17_2F_NPT_Machine_State) //A16 2F設備數據採集 or //A17-2F-NPT設備數據採集
+        //#if (A16_2F_JPT_Machine_State || A17_2F_NPT_Machine_State) //A16 2F設備數據採集 or //A17-2F-NPT設備數據採集
 //        //public string MakeUpdateString(string _id, string _dmip, int _state, int _err, int _connState, string _time)
 //        //public string MakeUpdateString(string _id, string _dmip, uint _state, uint _err, int _connState, string _time)
 //        public string MakeUpdateString(string _id, string _dmip, int _state, int _err, int _input, int _ok, int _ng, int _connState, string _time)
@@ -1166,7 +1330,23 @@ namespace opcClient
 
             bool f_ResetPLC = false;//true:Reset PLC中
 
-            /*指定時間, 自動清空PLC數據*/
+
+#if (ManualResetTiming) //手動添加清除PLC內容的時間, (不使用每日定時清除)
+            if (listBox_ResetTime.Items.Count > 0)
+            {
+                string nowTime = DateTime.Now.ToString("yyyy/MM/dd") + " " + DateTime.Now.ToString("HH:mm");
+                if (string.Compare(listBox_ResetTime.Items[0].ToString(), nowTime) < 0)// item時間小於目前時間(時間己過,移除)
+                {
+                    listBox_ResetTime.Items.RemoveAt(0); //移除指定列資料.
+                }
+                else if (string.Compare(listBox_ResetTime.Items[0].ToString(), nowTime) == 0)// item時間小於目前時間(時間己過,移除)
+                {
+                    f_ResetPLC = true;
+                    ResetAllPLCitemValue();//清空PLC數據
+                }
+            }
+#else
+            /*定時清空----PLC數據*/
             if (checkBoxEnableReset1.CheckState == CheckState.Checked)//第一組時間
             {
                 if (DateTime.Now.ToString("HHmm") == string.Concat(comboBoxResetHour1.SelectedItem.ToString() + comboBoxResetMin1.SelectedItem.ToString())) //時+分, HH為24小時制, hh為12小時制
@@ -1183,7 +1363,7 @@ namespace opcClient
                     ResetAllPLCitemValue();//清空PLC數據
                 }
             }
-
+#endif
             /*定時上傳-----//上傳時間(頻率)到了,啟動上傳*/
             if ((UploadTimerCount >= UploadTimerCountTarget) && (!f_ResetPLC)) //Count時間到了,並且在非ResetPLC時間
             {
@@ -1298,12 +1478,14 @@ namespace opcClient
             FileStream FS = new FileStream(filePath, FileMode.Create, FileAccess.Write);
             StreamWriter sw = new StreamWriter(FS, System.Text.Encoding.Default);
 
-            /*儲存版本號*/
-            sw.Write(string.Concat("VER:" + SoftVersion + "\r\n"));
-
 
             /*儲存OPC server名稱*/
             sw.Write(string.Concat("OPCserver:" + cmbServerName.Text + "\r\n"));
+
+#if (!AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
+
+            /*儲存版本號*/
+            sw.Write(string.Concat("VER:" + SoftVersion + "\r\n"));
 
 
             /*儲存所有KEPserver上的ITEM(from listBox_ShowItem to file)*/
@@ -1331,7 +1513,7 @@ namespace opcClient
 
                 sw.Write(string.Concat("Device:" + IDstr + ITEMstr + "\r\n"));//加上id欄位
             }
-
+#endif
 
             /*儲存採集頻率*/
             sw.Write(string.Concat("UpdateRate:" + txtboxUpdateRate.Text + "\r\n"));
@@ -1366,6 +1548,17 @@ namespace opcClient
             /*儲存RESET Minute*/
             sw.Write(string.Concat("ResetMinute2:" + comboBoxResetMin2.SelectedIndex + "\r\n"));
 
+
+#if (ManualResetTiming) //手動添加清除PLC內容的時間, (不使用每日定時清除)
+            
+            /*儲存所有KEPserver上的ITEM(from listBox_ShowItem to file)*/
+            for (int i = 0; i < listBox_ResetTime.Items.Count; i++) //每一筆device
+            {
+                string str = listBox_ResetTime.Items[i].ToString().Replace(":","@");//將 Time 之":"更換為"@"
+                sw.Write(string.Concat("ManualResetTime:" + str + "\r\n"));//加上id欄位
+            }
+
+#endif
 
             sw.Close();
 
@@ -1402,6 +1595,8 @@ namespace opcClient
                     {
                         string[] sArray = line.Split(':');
 
+#if (!AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
+
                         if (sArray[0] == "VER")/*確認軟件&設置檔版本搭配*/
                         {
                             if (sArray[1] != SoftVersion)
@@ -1410,11 +1605,6 @@ namespace opcClient
                                 sr.Close();
                                 return false;
                             }
-                        }
-
-                        if (sArray[0] == "OPCserver")
-                        {
-                            File_OPCserverName = sArray[1];
                         }
 
                         else if (sArray[0] == "Source")//KEPserver(listBox_ShowItem上)的item name*
@@ -1437,6 +1627,12 @@ namespace opcClient
                                     File_SelList.Add(pArray[i]);
                                 }
                             }
+                        }
+#endif
+
+                        if (sArray[0] == "OPCserver")
+                        {
+                            File_OPCserverName = sArray[1];
                         }
 
                         else if (sArray[0] == "UpdateRate")
@@ -1471,6 +1667,15 @@ namespace opcClient
                         {
                             File_ResetMinute2 = sArray[1];
                         }
+
+#if (ManualResetTiming) //手動添加清除PLC內容的時間, (不使用每日定時清除)
+                        else if (sArray[0] == "ManualResetTime")/*手動設定的PLC清除時間*/
+                        {
+                            sArray[1] = sArray[1].Replace("@", ":");//將 Time 之"@" 換回":"
+                            File_ManualResetTimeList.Add(sArray[1]);
+                        }
+#endif
+
                     }
                 }
                 sr.Close();
@@ -1498,7 +1703,8 @@ namespace opcClient
                 MessageBox.Show("OPC server 存取失敗!");
                 return false;
             }
-            
+
+#if (!AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
 
             ///*確認KEPserver(listBox_ShowItem上)的來源是否有變更*/, 與listBox_ShowItem上進行比對是否完全相同
             for (int i = 0; i < File_SourceItemList.Count; i++) //每一筆device
@@ -1520,7 +1726,7 @@ namespace opcClient
 
             //載入OPCitems, 從listbox -> grid
             Load_ALL_OPCItems_FromListBox();//(重新)載入OPCitems, 從listbox -> grid
-
+#endif
 
             //udpate rate
             txtboxUpdateRate.Text = File_UpdateRate;
@@ -1554,6 +1760,14 @@ namespace opcClient
             comboBoxResetMin2.SelectedIndex = int.Parse(File_ResetMinute2);
 
 
+#if (ManualResetTiming) //手動添加清除PLC內容的時間, (不使用每日定時清除)
+            /*載入儲存之手動清除時間 , file -> listbox */
+            for (int i = 0; i < File_ManualResetTimeList.Count; i++) //每一筆device
+            {
+                listBox_ResetTime.Items.Add(File_ManualResetTimeList[i]); //先load到選取item之listbox
+            }
+#endif
+
 
             ChangeGroupProperty();//變更屬性(採集頻率...etc)
 
@@ -1572,16 +1786,19 @@ namespace opcClient
             listBox_SelItem.Items.Clear();
             //comboWriteItem.Items.Clear();
 
-            /*Clear grid*/
-            DGrid.Rows.Clear();
+            ///*Clear grid*/
+            //DGrid.Rows.Clear();
 
-            /*remove ALL opc items*/
-            OpcItemCount = 0;
-            //for (int i = 0; i < listBox_SelItem.Items.Count; i++)
-            for (int i = 0; i < OpcItemCount; i++)
-            {
-                RemoveOPCitem(myItemArray[i].itmHandleServer);
-            }
+            ///*remove ALL opc items*/
+            //OpcItemCount = 0;
+            ////for (int i = 0; i < listBox_SelItem.Items.Count; i++)
+            //for (int i = 0; i < OpcItemCount; i++)
+            //{
+            //    RemoveOPCitem(myItemArray[i].itmHandleServer);
+            //}
+
+            ResetOPCdata();
+
 
         }
 
@@ -1684,9 +1901,11 @@ namespace opcClient
 
         private void buttonChangeSetting_Click(object sender, EventArgs e)
         {
+
             FormPWD frmPWD = new FormPWD(this);
             //this.Visible = false;
-            frmPWD.ShowDialog();               
+            frmPWD.ShowDialog();   
+
         }
 
         public void EnableSetting(bool _enable)
@@ -1704,14 +1923,20 @@ namespace opcClient
                     DGrid.ReadOnly = false;//內容可編輯
                     groupBoxRate.Enabled = true;
                     //groupBoxWriteValue.Enabled = true;
-                    groupBoxReset.Enabled = true;
+
+#if (!ManualResetTiming) //手動添加清除PLC內容的時間, (不使用每日定時清除)
+                    groupBoxAutoReset.Enabled = true;
+#endif
 
                     BackColor = Color.Gold;
 
                     buttonStartUpload.Visible = false;
                     buttonChangeSetting.Visible = false;
-
+#if (!AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
                     groupBoxSetting.Visible = true;
+#endif
+                    groupBoxSave.Visible = true;
+
                     groupBoxLog.Visible = false;
 
                     listBox_SelItem.Visible = true;
@@ -1728,7 +1953,7 @@ namespace opcClient
                     DGrid.ReadOnly = true;//內容不可編輯
                     groupBoxRate.Enabled = false;
                     //groupBoxWriteValue.Enabled = false;
-                    groupBoxReset.Enabled = false;
+                    groupBoxAutoReset.Enabled = false;
 
                     BackColor = SystemColors.ActiveCaption;
 
@@ -1736,6 +1961,9 @@ namespace opcClient
                     buttonChangeSetting.Visible = true;
 
                     groupBoxSetting.Visible = false;
+
+                    groupBoxSave.Visible = false;
+
                     groupBoxLog.Visible = true;
 
                     groupBoxFunction.Visible = false;
@@ -1746,10 +1974,7 @@ namespace opcClient
 
         private void buttonCancelSetting_Click(object sender, EventArgs e)
         {
-            if (!CheckGridData()) //*檢查grid內容是否正確*/
-                return;
 
-            EnableSetting(false);
         }
 
 
@@ -1845,13 +2070,23 @@ namespace opcClient
 
             ///*確認grid內容是否正確*/
 
-            if (listBox_SelItem .Items.Count==0)
+#if (AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
+
+            if (DGrid.Rows.Count == 1)//只有一行,代表無資料插入
             {
                 LOG("Grid無資料");
                 MessageBox.Show("無資料");
                 return false;
             }
 
+#else
+            if (listBox_SelItem .Items.Count==0)
+            {
+                LOG("Grid無資料");
+                MessageBox.Show("無資料");
+                return false;
+            }
+            
             //if (listBox_SelItem.Items.Count % (ItemsPerRow+1) != 0) //需為倍數
             if (OpcItemCount % ItemsPerRow != 0)//需為倍數
             {
@@ -1899,7 +2134,7 @@ namespace opcClient
             //        }
             //    }
             //}
-
+#endif
             return true;
         }
 
@@ -2146,14 +2381,18 @@ namespace opcClient
 
         private void Load_ALL_OPCItems_FromListBox()
         {
-            ClearDGrid(); /*清除Grid資料,但保留原有列數、行數*/
+            //ClearDGrid(); /*清除Grid資料,但保留原有列數、行數*/
             
-            /*remove ALL opc items*/
-            for (int i = 0; i < OpcItemCount; i++)
-            { RemoveOPCitem(myItemArray[i].itmHandleServer); }
 
-            OpcItemCount = 0;//reset count
-            labelItemCount.Text = "Item： " + OpcItemCount;
+            ///*remove ALL opc items*/
+            //for (int i = 0; i < OpcItemCount; i++)
+            //{ RemoveOPCitem(myItemArray[i].itmHandleServer); }
+
+            //OpcItemCount = 0;//reset count
+            //labelItemCount.Text = "Item： " + OpcItemCount;
+
+            ResetOPCdata();
+
 
             List<string> IDlist = new List<string>();
 
@@ -2187,6 +2426,20 @@ namespace opcClient
                 DGrid.Rows[i].Cells[0].Value=IDlist[i];
             }
 
+        }
+
+        private void ResetOPCdata()
+        {
+            ClearDGrid(); /*清除Grid資料,但保留原有列數、行數*/
+            //DGrid.Rows.Clear();/*清除Grid資料,不保留原有列數、行數*/
+
+            /*remove ALL opc items*/
+            for (int i = 0; i < OpcItemCount; i++)
+            { RemoveOPCitem(myItemArray[i].itmHandleServer); }
+
+            OpcItemCount = 0;//reset count
+            labelItemCount.Text = "Item： " + OpcItemCount;
+        
         }
 
         private void buttonDelRow_Click(object sender, EventArgs e)
@@ -2557,13 +2810,21 @@ namespace opcClient
 
         private void cmbServerName_SelectedIndexChanged(object sender, EventArgs e)
         {
+            /* opc server 斷開*/
+            KepServer.Disconnect();
+
+            ResetOPCdata();//清除OPC資料.
 
             if (ConnectOPC(cmbServerName.SelectedItem.ToString()))
             {
                 /*列出OPC server 上的item到listbox*/
                 RecurBrowse(KepServer.CreateBrowser());//search and show OPC items in ListBox
 
-                CreateGroup();//Create OPC group            
+                CreateGroup();//Create OPC group      
+      
+#if (AutoAddingOpcItemFromServer)//自動從OPC server載入item, 不再手動點繫listbox添加
+                AutoAddingOpcItemFromServer();
+#endif
             }
 
         }
@@ -2602,10 +2863,64 @@ namespace opcClient
             //do nothing
         }
 
+        private void buttonDoneSetting_Click(object sender, EventArgs e)
+        {
+
+            if (!CheckGridData()) //*檢查grid內容是否正確*/
+                return;
+
+            EnableSetting(false);
+        }
+
+        private void buttonDoneSetting_Click_1(object sender, EventArgs e)
+        {
+            /*DONE process*/
+
+            if (!CheckGridData()) //*檢查grid內容是否正確*/
+                return;
+
+            EnableSetting(false);
+        }
+
+        private void btnAddResetTime_Click(object sender, EventArgs e)
+        {
+            /*將指定時間加入listbox中*/
+            string date = dateTimePickerManualReset.Value.ToString("yyyy/MM/dd");
+            string time = string.Concat(comboBoxManualResetHour.SelectedItem.ToString() + ":" + comboBoxManualResetMin.SelectedItem.ToString());
+            listBox_ResetTime.Items.Add(date+ " " + time);
+
+            /*檢查listbox內容(己自動排序)*/
+            string nowTime = DateTime.Now.ToString("yyyy/MM/dd") + " " + DateTime.Now.ToString("HH:mm");
+            for (int i = 0; i < listBox_ResetTime.Items.Count; i++)
+            {
+                if (string.Compare(listBox_ResetTime.Items[0].ToString(), nowTime) < 0)// item時間小於目前時間
+                {
+                    //MessageBox.Show(listBox_ResetTime.Items[0].ToString());
+                    listBox_ResetTime.Items.RemoveAt(0); //移除指定列資料.
+                }
+
+            }
+
+            /*儲存(日期)*/
+            Save_Setting_to_File();//儲存設置參數,下次可自動調用.
 
 
+        }
+
+        private void btnRomoveResetTime_Click(object sender, EventArgs e)
+        {
+            /*移除最新的日期*/
+            if (listBox_ResetTime.Items.Count>0)// item時間小於目前時間
+            {
+                listBox_ResetTime.Items.RemoveAt(0); //移除指定列資料.
+            }
+
+            /*儲存日期*/
+            Save_Setting_to_File();//儲存設置參數,下次可自動調用.
+        }
 
 
+  
     }
 
 }

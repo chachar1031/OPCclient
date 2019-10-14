@@ -30,5 +30,10 @@
 1.Add trigger collection for torque.
 2.support more than one OPC server.
 3.combine SQL server access.
+4.integrate and simplify form_load process.
 
-
+2019/10/14
+1.Add auto adding opc items.(without double click listbox)
+2.increase max item number to 10000
+3.Add opc item filter for several opc clients used in the same OPC server.
+4.Add manual reset timing mode.
